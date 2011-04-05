@@ -1,0 +1,9 @@
+patas 0-2
+
+anillo 1 - mínimo 199
+anillo 2 - mínimo 323
+
+patas 2-5
+
+anillo 1 - máximo 827
+anillo 2 - máximo 698
