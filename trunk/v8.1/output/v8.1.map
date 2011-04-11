@@ -1,0 +1,2164 @@
+Archive member included because of file (symbol)
+
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o)
+                              mov_bajo_nivel.o (acos)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                              mov_bajo_nivel.o (__subsf3)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o) (__addsf3x)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o)
+                              mov_bajo_nivel.o (atan)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+                              movimiento.o (__eqsf2)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o)
+                              mov_bajo_nivel.o (cos)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                              mov_bajo_nivel.o (__divsf3)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3.o) (__divsf3x)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o)
+                              util.o (exp)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixsfsi.o)
+                              mov_bajo_nivel.o (__fixsfsi)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                              movimiento.o (__fixunssfsi)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              movimiento.o (__floatunsisf)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_arccos.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o) (__fp_arccos)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cmpsf2.o) (__fp_cmp)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_inf)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_nan)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powser.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o) (__fp_powser)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscA)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscB)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_rempio2.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o) (__fp_rempio2)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o) (__fp_round)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o) (__fp_sinus)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_split3)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_zero)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(gesf2.o)
+                              mov_bajo_nivel.o (__gesf2)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(hypot.o)
+                              mov_bajo_nivel.o (hypot)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(inverse.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o) (inverse)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(ldexp.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o) (ldexp)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(modf.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o) (modf)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                              mov_bajo_nivel.o (__mulsf3)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o) (__mulsf3x)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(pow.o)
+                              util.o (pow)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sin.o)
+                              mov_bajo_nivel.o (sin)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sqrt.o)
+                              mov_bajo_nivel.o (sqrt)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(square.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o) (square)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_mpack.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(hypot.o) (__fp_mpack)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_norm2.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sqrt.o) (__fp_norm2)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powsodd.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o) (__fp_powsodd)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(log.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(pow.o) (log)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                              display.o (malloc)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+                              util.o (rand)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(realloc.o)
+                              WString.o (realloc)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(atol.o)
+                              WString.o (atol)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(exit.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o (exit)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+                              WString.o (isspace)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(tolower.o)
+                              WString.o (tolower)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(toupper.o)
+                              WString.o (toupper)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
+                              ax12.o (memcpy)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcat.o)
+                              WString.o (strcat)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr.o)
+                              WString.o (strchr)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
+                              WString.o (strcmp)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
+                              display.o (strcpy)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
+                              WString.o (strncmp)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncpy.o)
+                              WString.o (strncpy)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrchr.o)
+                              WString.o (strrchr)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strstr.o)
+                              WString.o (strstr)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(itoa.o)
+                              WString.o (itoa)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ltoa.o)
+                              WString.o (ltoa)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(mulsi10.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(atol.o) (__mulsi_const_10)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa.o)
+                              WString.o (ultoa)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o) (__ctype_isfalse)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(itoa.o) (strrev)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o) (__mulsi3)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                              vectores.o (__udivmodqi4)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                              movimiento.o (__udivmodhi4)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                              events.o (__divmodhi4)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                              ax12.o (__udivmodsi4)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o) (__divmodsi4)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(exit.o) (_exit)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              ax12.o (__do_clear_bss)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o)
+                              cabeza.o (__do_global_ctors)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_dtors.o)
+                              remote_control.o (__do_global_dtors)
+c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_tablejump.o)
+                              c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o) (__tablejump__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+__flp               0x2               c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+ .text          0x00000000        0x0 ax12.o
+ .data          0x00000000        0x0 ax12.o
+ .bss           0x00000000        0x0 ax12.o
+ .text._ZN4AX129writeByteEh
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C2Elhb
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C1Elhb
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C2Ehb
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C1Ehb
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C2Elh
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C1Elh
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C2Eh
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX12C2Ev
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX1210autoDetectEPhh
+                0x00000000        0x0 ax12.o
+ .text._Z8sign2bini
+                0x00000000        0x0 ax12.o
+ .text._Z7makeIntPhh
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX126actionEv
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX125resetEv
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX1210presentPSLEPi
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX128syncInfoEhhPhPi
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX129setPosVelEii
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX128changeIDEh
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX1211endlessTurnEi
+                0x00000000        0x0 ax12.o
+ .text._ZN4AX1218setEndlessTurnModeEb
+                0x00000000        0x0 ax12.o
+ .text          0x00000000        0x0 cabeza.o
+ .data          0x00000000        0x0 cabeza.o
+ .bss           0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza11twobyte2intEPh
+                0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza16disable_send_allEv
+                0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza15enable_send_allEv
+                0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza8set_timeEh
+                0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza7requestEh
+                0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza13set_thresholdEhj
+                0x00000000        0x0 cabeza.o
+ .text._ZN6Cabeza10read_valueEh
+                0x00000000        0x0 cabeza.o
+ .text._ZN6CabezaC2Ev
+                0x00000000        0x0 cabeza.o
+ .text          0x00000000        0x0 display.o
+ .data          0x00000000        0x0 display.o
+ .bss           0x00000000        0x0 display.o
+ .text._ZN7DisplayC2Ev
+                0x00000000        0x0 display.o
+ .text._ZN7DisplayC1Ev
+                0x00000000        0x0 display.o
+ .text._ZN7Display7xy2byteEhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display10rotacionesEh
+                0x00000000        0x0 display.o
+ .text._ZN7Display7loadChrEh
+                0x00000000        0x0 display.o
+ .text._ZN7Display5mergeEv
+                0x00000000        0x0 display.o
+ .text._ZN7Display11writeScreenEv
+                0x00000000        0x0 display.o
+ .text._ZN7Display10readScreenEv
+                0x00000000        0x0 display.o
+ .text._ZN7Display7medidorEhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display7circuloEhhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display8cuadradoEhhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display5lineaEhhhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display7linea_hEhb
+                0x00000000        0x0 display.o
+ .text._ZN7Display7linea_vEhb
+                0x00000000        0x0 display.o
+ .text._ZN7Display11togglePixelEhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display10resetPixelEhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display9readPixelEhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display10writePixelEhhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display12invertScreenEv
+                0x00000000        0x0 display.o
+ .text._ZN7Display13rePaintScreenEv
+                0x00000000        0x0 display.o
+ .text._ZN7Display14borraCuadranteEh
+                0x00000000        0x0 display.o
+ .text._ZN7Display9borraZonaEhhhh
+                0x00000000        0x0 display.o
+ .text._ZN7Display3clsEv
+                0x00000000        0x0 display.o
+ .text          0x00000000        0x0 events.o
+ .data          0x00000000        0x0 events.o
+ .bss           0x00000000        0x0 events.o
+ .text._ZN6Events8get_timeEv
+                0x00000000        0x0 events.o
+ .text._ZN6EventsC2Eh
+                0x00000000        0x0 events.o
+ .text          0x00000000        0x0 hardware.o
+ .data          0x00000000        0x0 hardware.o
+ .bss           0x00000000        0x0 hardware.o
+ .text._Z11ADCInitConvh
+                0x00000000        0x0 hardware.o
+ .text._Z11ADCReadConvv
+                0x00000000        0x0 hardware.o
+ .text._Z6millisv
+                0x00000000        0x0 hardware.o
+ .text._Z6microsv
+                0x00000000        0x0 hardware.o
+ .text._Z17delayMicrosecondsj
+                0x00000000        0x0 hardware.o
+ .text          0x00000000        0x0 HardwareSerial.o
+ .data          0x00000000        0x0 HardwareSerial.o
+ .bss           0x00000000        0x0 HardwareSerial.o
+ .text._ZN14HardwareSerialC2EP11ring_bufferPVhS3_S3_S3_S3_hhhhh
+                0x00000000        0x0 HardwareSerial.o
+ .text._ZN14HardwareSerialC1EP11ring_bufferPVhS3_S3_S3_S3_hhhhh
+                0x00000000        0x0 HardwareSerial.o
+ .text._ZN14HardwareSerial3endEv
+                0x00000000        0x0 HardwareSerial.o
+ .text._ZN14HardwareSerial4peekEv
+                0x00000000        0x0 HardwareSerial.o
+ .text._ZN14HardwareSerial5flushEv
+                0x00000000        0x0 HardwareSerial.o
+ .bss.rx_buffer1
+                0x00000000        0x0 HardwareSerial.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 mov_bajo_nivel.o
+ .bss           0x00000000        0x0 mov_bajo_nivel.o
+ .text._Z5servohhii
+                0x00000000        0x0 mov_bajo_nivel.o
+ .text._Z7pos_angh7ANGULOSi
+                0x00000000        0x0 mov_bajo_nivel.o
+ .text          0x00000000        0x0 movimiento.o
+ .data          0x00000000        0x0 movimiento.o
+ .bss           0x00000000        0x0 movimiento.o
+ .text._ZN10Movimiento13set_osciladorEhfffb
+                0x00000000        0x0 movimiento.o
+ .text._ZN10Movimiento4contEv
+                0x00000000        0x0 movimiento.o
+ .text._ZN10Movimiento9osciladorEfi
+                0x00000000        0x0 movimiento.o
+ .text._ZN10Movimiento5startEv
+                0x00000000        0x0 movimiento.o
+ .text._ZN10MovimientoC2Ev
+                0x00000000        0x0 movimiento.o
+ .text          0x00000000        0x0 pins_arduino.o
+ .data          0x00000000        0x0 pins_arduino.o
+ .bss           0x00000000        0x0 pins_arduino.o
+ .text          0x00000000        0x0 Print.o
+ .data          0x00000000        0x0 Print.o
+ .bss           0x00000000        0x0 Print.o
+ .text._ZN5Print5printEPKc
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printERK6String
+                0x00000000        0x0 Print.o
+ .text._ZN5Print11printNumberEmh
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEmi
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEji
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEhi
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEli
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEii
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEci
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEv
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEmi
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEji
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEhi
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEPKc
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnERK6String
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEli
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEii
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEci
+                0x00000000        0x0 Print.o
+ .text._ZN5Print10printFloatEdh
+                0x00000000        0x0 Print.o
+ .text._ZN5Print5printEdi
+                0x00000000        0x0 Print.o
+ .text._ZN5Print7printlnEdi
+                0x00000000        0x0 Print.o
+ .rodata._ZTV5Print
+                0x00000000        0x0 Print.o
+ .text          0x00000000        0x0 serialcomm.o
+ .data          0x00000000        0x0 serialcomm.o
+ .bss           0x00000000        0x0 serialcomm.o
+ .text._ZN10SerialcommC2Ev
+                0x00000000        0x0 serialcomm.o
+ .text._ZN10Serialcomm8send_msgEhhPh
+                0x00000000        0x0 serialcomm.o
+ .text._ZN10Serialcomm14send_2byte_msgEhj
+                0x00000000        0x0 serialcomm.o
+ .text._ZN10Serialcomm11leer_serialEhhPh
+                0x00000000        0x0 serialcomm.o
+ .text._ZN10SerialcommC2EP14HardwareSeriallhhPFvhhPhE
+                0x00000000        0x0 serialcomm.o
+ .text          0x00000000        0x0 util.o
+ .data          0x00000000        0x0 util.o
+ .bss           0x00000000        0x0 util.o
+ .text._Z3mapfffff
+                0x00000000        0x0 util.o
+ .text._Z8semisumaff
+                0x00000000        0x0 util.o
+ .text._Z10log_randomf
+                0x00000000        0x0 util.o
+ .text._Z12curved_noisePffff
+                0x00000000        0x0 util.o
+ .text          0x00000000        0x0 vectores.o
+ .data          0x00000000        0x0 vectores.o
+ .bss           0x00000000        0x0 vectores.o
+ .text._Z12sumaproducto7COORD3DS_
+                0x00000000        0x0 vectores.o
+ .text._Z18producto_vectorial7COORD3DS_
+                0x00000000        0x0 vectores.o
+ .text._Z10puntomedio7COORD3DS_
+                0x00000000        0x0 vectores.o
+ .text          0x00000000        0x0 wiring_analog.o
+ .data          0x00000000        0x0 wiring_analog.o
+ .bss           0x00000000        0x0 wiring_analog.o
+ .text.analogReference
+                0x00000000        0x0 wiring_analog.o
+ .text          0x00000000        0x0 wiring_digital.o
+ .data          0x00000000        0x0 wiring_digital.o
+ .bss           0x00000000        0x0 wiring_digital.o
+ .text.digitalRead
+                0x00000000        0x0 wiring_digital.o
+ .text          0x00000000        0x0 WString.o
+ .bss           0x00000000        0x0 WString.o
+ .text._ZNK6String6charAtEj
+                0x00000000        0x0 WString.o
+ .text._ZN6String9setCharAtEjc
+                0x00000000        0x0 WString.o
+ .text._ZN6StringixEj
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringixEj
+                0x00000000        0x0 WString.o
+ .text._ZN6StringD2Ev
+                0x00000000        0x0 WString.o
+ .text._ZN6String5toIntEv
+                0x00000000        0x0 WString.o
+ .text._ZN6String11toCharArrayEPcj
+                0x00000000        0x0 WString.o
+ .text._ZN6String8getBytesEPhj
+                0x00000000        0x0 WString.o
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000        0x0 WString.o
+ .text._ZNK6String10startsWithERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000        0x0 WString.o
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0x0 WString.o
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000        0x0 WString.o
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6String7indexOfEcj
+                0x00000000        0x0 WString.o
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x0 WString.o
+ .text._ZNK6String6equalsERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6String8endsWithERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringgeERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringleERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringgtERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringltERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringneERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6StringeqERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6String9compareToERKS_
+                0x00000000        0x0 WString.o
+ .text._ZN6String6concatERKS_
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC1Eh
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2Eh
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC1Ec
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2Ec
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2ERKS_
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC1Emi
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2Emi
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC1Eji
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2Eji
+                0x00000000        0x0 WString.o
+ .text._ZNK6String11toUpperCaseEv
+                0x00000000        0x0 WString.o
+ .text._ZNK6String11toLowerCaseEv
+                0x00000000        0x0 WString.o
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6String9substringEjj
+                0x00000000        0x0 WString.o
+ .text._ZNK6String9substringEj
+                0x00000000        0x0 WString.o
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000        0x0 WString.o
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000        0x0 WString.o
+ .text._ZNK6String4trimEv
+                0x00000000        0x0 WString.o
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000        0x0 WString.o
+ .text._ZN6String7replaceEcc
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2EPKc
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC1Eli
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2Eli
+                0x00000000        0x0 WString.o
+ .text._ZN6StringC2Eii
+                0x00000000        0x0 WString.o
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x0 WString.o
+ .text          0x00000000        0x0 remote_control.o
+ .bss           0x00000000        0x0 remote_control.o
+ .text._ZN13RemoteControlC2Ev
+                0x00000000        0x0 remote_control.o
+ .text._Zpl6StringRKS_
+                0x00000000        0x0 remote_control.o
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixsfsi.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_arccos.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_arccos.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_arccos.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powser.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powser.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powser.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_rempio2.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_rempio2.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_rempio2.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(hypot.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(hypot.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(hypot.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(inverse.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(inverse.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(inverse.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(ldexp.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(ldexp.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(ldexp.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(modf.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(modf.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(modf.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(pow.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(pow.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(pow.o)
+ .text.avr-libc.fplib
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(pow.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sin.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sin.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sin.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sqrt.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sqrt.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sqrt.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(square.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(square.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(square.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_mpack.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_mpack.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_mpack.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_norm2.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_norm2.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_norm2.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powsodd.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powsodd.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powsodd.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(log.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(log.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(log.o)
+ .text.avr-libc.fplib
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(log.o)
+ .progmem.gcc_fplib
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(log.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(realloc.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(realloc.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(realloc.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(atol.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(atol.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(atol.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(atol.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(exit.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(exit.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(exit.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(tolower.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(tolower.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(tolower.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(tolower.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(toupper.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(toupper.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(toupper.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(toupper.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcat.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcat.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcat.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcmp.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncmp.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncpy.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncpy.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncpy.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strncpy.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrchr.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrchr.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrchr.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrchr.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strstr.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strstr.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strstr.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strstr.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(itoa.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(itoa.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(itoa.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ltoa.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ltoa.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ltoa.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ltoa.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(mulsi10.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(mulsi10.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(mulsi10.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(mulsi10.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_dtors.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_dtors.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_dtors.o)
+ .text.libgcc   0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_dtors.o)
+ .text          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_tablejump.o)
+ .data          0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_tablejump.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+LOAD libv8.1.a
+LOAD ax12.o
+LOAD cabeza.o
+LOAD display.o
+LOAD events.o
+LOAD hardware.o
+LOAD HardwareSerial.o
+LOAD main.o
+LOAD mov_bajo_nivel.o
+LOAD movimiento.o
+LOAD pins_arduino.o
+LOAD Print.o
+LOAD serialcomm.o
+LOAD util.o
+LOAD vectores.o
+LOAD wiring_analog.o
+LOAD wiring_digital.o
+LOAD WString.o
+LOAD remote_control.o
+LOAD c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a
+LOAD c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0xd762
+ *(.vectors)
+ .vectors       0x00000000       0xe4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x000000e4       0xbe ax12.o
+ .progmem.gcc_sw_table
+                0x000001a2      0x17a display.o
+ .progmem.gcc_fplib
+                0x0000031c       0x2d c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o)
+ .progmem.gcc_fplib
+                0x00000349       0x28 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o)
+ .progmem.gcc_fplib
+                0x00000371       0x28 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_arccos.o)
+ .progmem.gcc_fplib
+                0x00000399       0x1e c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o)
+ *(.progmem*)
+ .progmem.data  0x000003b7      0x120 pins_arduino.o
+                0x000003b7                port_to_mode_PGM
+                0x00000405                digital_pin_to_port_PGM
+                0x0000044b                digital_pin_to_bit_mask_PGM
+                0x000003d1                port_to_output_PGM
+                0x000003eb                port_to_input_PGM
+                0x00000491                digital_pin_to_timer_PGM
+                0x000004d8                . = ALIGN (0x2)
+ *fill*         0x000004d7        0x1 00
+                0x000004d8                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000004d8        0x0 linker stubs
+ *(.trampolines*)
+                0x000004d8                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000004d8                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000004d8        0x2 cabeza.o
+ .ctors         0x000004da        0x2 display.o
+ .ctors         0x000004dc        0x2 events.o
+ .ctors         0x000004de        0x2 HardwareSerial.o
+ .ctors         0x000004e0        0x2 mov_bajo_nivel.o
+ .ctors         0x000004e2        0x2 movimiento.o
+ .ctors         0x000004e4        0x2 remote_control.o
+                0x000004e6                __ctors_end = .
+                0x000004e6                __dtors_start = .
+ *(.dtors)
+ .dtors         0x000004e6        0x2 remote_control.o
+                0x000004e8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000004e8        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+                0x000004e8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000004e8        0xc c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000004f4       0x1a c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+                0x000004f4                __do_copy_data
+ .init4         0x0000050e       0x10 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x0000050e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000051e       0x16 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ctors.o)
+                0x0000051e                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000534        0x8 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+ *(.init9)
+ *(.text)
+ .text          0x0000053c        0x4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm1280.o
+                0x0000053c                __vector_38
+                0x0000053c                __vector_22
+                0x0000053c                __vector_28
+                0x0000053c                __vector_1
+                0x0000053c                __vector_32
+                0x0000053c                __vector_34
+                0x0000053c                __vector_24
+                0x0000053c                __vector_12
+                0x0000053c                __vector_55
+                0x0000053c                __vector_46
+                0x0000053c                __bad_interrupt
+                0x0000053c                __vector_6
+                0x0000053c                __vector_31
+                0x0000053c                __vector_35
+                0x0000053c                __vector_39
+                0x0000053c                __vector_3
+                0x0000053c                __vector_30
+                0x0000053c                __vector_45
+                0x0000053c                __vector_11
+                0x0000053c                __vector_13
+                0x0000053c                __vector_17
+                0x0000053c                __vector_19
+                0x0000053c                __vector_56
+                0x0000053c                __vector_7
+                0x0000053c                __vector_49
+                0x0000053c                __vector_41
+                0x0000053c                __vector_43
+                0x0000053c                __vector_27
+                0x0000053c                __vector_5
+                0x0000053c                __vector_33
+                0x0000053c                __vector_47
+                0x0000053c                __vector_52
+                0x0000053c                __vector_37
+                0x0000053c                __vector_4
+                0x0000053c                __vector_44
+                0x0000053c                __vector_9
+                0x0000053c                __vector_2
+                0x0000053c                __vector_21
+                0x0000053c                __vector_29
+                0x0000053c                __vector_40
+                0x0000053c                __vector_8
+                0x0000053c                __vector_26
+                0x0000053c                __vector_48
+                0x0000053c                __vector_14
+                0x0000053c                __vector_53
+                0x0000053c                __vector_10
+                0x0000053c                __vector_50
+                0x0000053c                __vector_16
+                0x0000053c                __vector_18
+                0x0000053c                __vector_20
+                0x0000053c                __vector_42
+                0x00000540                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN4AX125setTXEv
+                0x00000540       0x18 ax12.o
+                0x00000540                AX12::setTX()
+ .text._ZN4AX125setRXEv
+                0x00000558       0x26 ax12.o
+                0x00000558                AX12::setRX()
+ .text._ZN4AX127setNoneEv
+                0x0000057e       0x22 ax12.o
+                0x0000057e                AX12::setNone()
+ .text.__vector_36
+                0x000005a0       0x44 ax12.o
+                0x000005a0                __vector_36
+ .text._ZN4AX124initEl
+                0x000005e4       0x3e ax12.o
+                0x000005e4                AX12::init(long)
+ .text._ZN4AX12C1Eh
+                0x00000622        0xc ax12.o
+                0x00000622                AX12::AX12(unsigned char)
+ .text._ZN4AX12C1Ev
+                0x0000062e        0xc ax12.o
+                0x0000062e                AX12::AX12()
+ .text._ZN4AX1210sendPacketEhhhPh
+                0x0000063a       0xa2 ax12.o
+                0x0000063a                AX12::sendPacket(unsigned char, unsigned char, unsigned char, unsigned char*)
+ .text._ZN4AX1210readPacketEv
+                0x000006dc       0xbc ax12.o
+                0x000006dc                AX12::readPacket()
+ .text._Z8bin2signb
+                0x00000798        0x6 ax12.o
+                0x00000798                bin2sign(bool)
+ .text._Z10lengthReadh
+                0x0000079e       0x26 ax12.o
+                0x0000079e                lengthRead(unsigned char)
+ .text._Z11lengthWriteh
+                0x000007c4       0x28 ax12.o
+                0x000007c4                lengthWrite(unsigned char)
+ .text._ZN4AX1210returnDataEh
+                0x000007ec       0x72 ax12.o
+                0x000007ec                AX12::returnData(unsigned char)
+ .text._ZN4AX128readDataEhh
+                0x0000085e       0x3c ax12.o
+                0x0000085e                AX12::readData(unsigned char, unsigned char)
+ .text._ZN4AX124pingEv
+                0x0000089a       0x26 ax12.o
+                0x0000089a                AX12::ping()
+ .text._ZN4AX1212processValueEhPi
+                0x000008c0       0x84 ax12.o
+                0x000008c0                AX12::processValue(unsigned char, int*)
+ .text._ZN4AX128readInfoEh
+                0x00000944       0x80 ax12.o
+                0x00000944                AX12::readInfo(unsigned char)
+ .text._ZN4AX129syncWriteEhhhPhPS0_
+                0x000009c4       0xea ax12.o
+                0x000009c4                AX12::syncWrite(unsigned char, unsigned char, unsigned char, unsigned char*, unsigned char**)
+ .text._ZN4AX1214setMultiPosVelEhPhPiS1_
+                0x00000aae      0x116 ax12.o
+                0x00000aae                AX12::setMultiPosVel(unsigned char, unsigned char*, int*, int*)
+ .text._ZN4AX129writeDataEhhPhb
+                0x00000bc4       0xbe ax12.o
+                0x00000bc4                AX12::writeData(unsigned char, unsigned char, unsigned char*, bool)
+ .text._ZN4AX129writeInfoEhib
+                0x00000c82       0xaa ax12.o
+                0x00000c82                AX12::writeInfo(unsigned char, int, bool)
+ .text._ZN4AX126setSRLEh
+                0x00000d2c       0x12 ax12.o
+                0x00000d2c                AX12::setSRL(unsigned char)
+ .text._ZN6Cabeza8callbackEhhPh
+                0x00000d3e       0x94 cabeza.o
+                0x00000d3e                Cabeza::callback(unsigned char, unsigned char, unsigned char*)
+ .text._ZN6Cabeza8posicionEhi
+                0x00000dd2       0x16 cabeza.o
+                0x00000dd2                Cabeza::posicion(unsigned char, int)
+ .text._ZN6CabezaC1Ev
+                0x00000de8       0x8a cabeza.o
+                0x00000de8                Cabeza::Cabeza()
+ .text._GLOBAL__I_kbza
+                0x00000e72        0xa cabeza.o
+ .text._ZN7Display6conwayEii
+                0x00000e7c       0x14 display.o
+                0x00000e7c                Display::conway(int, int)
+ .text._ZN7Display5anchoEc
+                0x00000e90       0x40 display.o
+                0x00000e90                Display::ancho(char)
+ .text._ZN7Display6offsetEc
+                0x00000ed0       0x30 display.o
+                0x00000ed0                Display::offset(char)
+ .text._ZN7Display6isBusyEv
+                0x00000f00       0x1c display.o
+                0x00000f00                Display::isBusy()
+ .text._GLOBAL__I_pantalla
+                0x00000f1c       0x10 display.o
+ .text._ZN7Display10SPIsendMsgEhhPh
+                0x00000f2c       0x5a display.o
+                0x00000f2c                Display::SPIsendMsg(unsigned char, unsigned char, unsigned char*)
+ .text._ZN7Display3lsmEcc
+                0x00000f86       0x28 display.o
+                0x00000f86                Display::lsm(char, char)
+ .text._ZN7Display7lsm_intEcc
+                0x00000fae       0x3e display.o
+                0x00000fae                Display::lsm_int(char, char)
+ .text._ZN7Display6scrollEccbb
+                0x00000fec       0x38 display.o
+                0x00000fec                Display::scroll(char, char, bool, bool)
+ .text._ZN7Display6conwayEv
+                0x00001024        0xe display.o
+                0x00001024                Display::conway()
+ .text._ZN7Display6updateEm
+                0x00001032      0x1f0 display.o
+                0x00001032                Display::update(unsigned long)
+ .text._ZN7Display8setPixelEhh
+                0x00001222       0x2a display.o
+                0x00001222                Display::setPixel(unsigned char, unsigned char)
+ .text._ZN7Display8setColorEhhh
+                0x0000124c       0x2c display.o
+                0x0000124c                Display::setColor(unsigned char, unsigned char, unsigned char)
+ .text._ZN7Display10scrollTextEPKciici
+                0x00001278       0x7c display.o
+                0x00001278                Display::scrollText(char const*, int, int, char, int)
+ .text._ZN6Events4swapEhh
+                0x000012f4       0x8c events.o
+                0x000012f4                Events::swap(unsigned char, unsigned char)
+ .text._ZN6Events9get_indexEh
+                0x00001380       0x16 events.o
+                0x00001380                Events::get_index(unsigned char)
+ .text._ZN6Events8get_dataEv
+                0x00001396       0x70 events.o
+                0x00001396                Events::get_data()
+ .text._ZN6Events3addE7MOVDATAi
+                0x00001406      0x17a events.o
+                0x00001406                Events::add(MOVDATA, int)
+ .text._ZN6Events12search_indexEmh
+                0x00001580       0xa4 events.o
+                0x00001580                Events::search_index(unsigned long, unsigned char)
+ .text._ZN6Events6searchEhi
+                0x00001624      0x136 events.o
+                0x00001624                Events::search(unsigned char, int)
+ .text._ZN6Events7processEv
+                0x0000175a      0x11c events.o
+                0x0000175a                Events::process()
+ .text._ZN6EventsC1Eh
+                0x00001876       0x2e events.o
+                0x00001876                Events::Events(unsigned char)
+ .text._GLOBAL__I_eventos
+                0x000018a4        0xc events.o
+ .text._Z9setTimersv
+                0x000018b0       0xe4 hardware.o
+                0x000018b0                setTimers()
+ .text._Z9ADCconfigv
+                0x00001994       0x1e hardware.o
+                0x00001994                ADCconfig()
+ .text._Z11SPItransferh
+                0x000019b2       0x14 hardware.o
+                0x000019b2                SPItransfer(unsigned char)
+ .text._Z5delaym
+                0x000019c6       0x54 hardware.o
+                0x000019c6                delay(unsigned long)
+ .text.__vector_15
+                0x00001a1a       0x5a hardware.o
+                0x00001a1a                __vector_15
+ .text.__vector_23
+                0x00001a74      0x10c hardware.o
+                0x00001a74                __vector_23
+ .text._Z9SPIconfigv
+                0x00001b80       0x3e hardware.o
+                0x00001b80                SPIconfig()
+ .text.__vector_25
+                0x00001bbe       0x6a HardwareSerial.o
+                0x00001bbe                __vector_25
+ .text.__vector_51
+                0x00001c28       0x6a HardwareSerial.o
+                0x00001c28                __vector_51
+ .text.__vector_54
+                0x00001c92       0x6a HardwareSerial.o
+                0x00001c92                __vector_54
+ .text._ZN14HardwareSerial5beginEl
+                0x00001cfc       0xb2 HardwareSerial.o
+                0x00001cfc                HardwareSerial::begin(long)
+ .text._ZN14HardwareSerial9availableEv
+                0x00001dae       0x22 HardwareSerial.o
+                0x00001dae                HardwareSerial::available()
+ .text._ZN14HardwareSerial4readEv
+                0x00001dd0       0x48 HardwareSerial.o
+                0x00001dd0                HardwareSerial::read()
+ .text._ZN14HardwareSerial5writeEh
+                0x00001e18       0x26 HardwareSerial.o
+                0x00001e18                HardwareSerial::write(unsigned char)
+ .text._GLOBAL__I_rx_buffer
+                0x00001e3e      0x13c HardwareSerial.o
+ .text.main     0x00001f7a       0xb4 main.o
+                0x00001f7a                main
+ .text._GLOBAL__I_motors
+                0x0000202e       0x36 mov_bajo_nivel.o
+ .text._Zpl6StringRKS_
+                0x00002064       0x24 mov_bajo_nivel.o
+                0x00002064                operator+(String, String const&)
+ .text._Z10motor_inithh
+                0x00002088      0x142 mov_bajo_nivel.o
+                0x00002088                motor_init(unsigned char, unsigned char)
+ .text._Z12motor_updatev
+                0x000021ca      0x23c mov_bajo_nivel.o
+                0x000021ca                motor_update()
+ .text._Z3xyzPi
+                0x00002406      0x1e2 mov_bajo_nivel.o
+                0x00002406                xyz(int*)
+ .text._Z9get_coordh
+                0x000025e8      0x150 mov_bajo_nivel.o
+                0x000025e8                get_coord(unsigned char)
+ .text._Z11motor_setupv
+                0x00002738      0x24e mov_bajo_nivel.o
+                0x00002738                motor_setup()
+ .text._Z12alfabetagama7COORD3D
+                0x00002986      0x23e mov_bajo_nivel.o
+                0x00002986                alfabetagama(COORD3D)
+ .text._Z9set_coordh7COORD3Dib
+                0x00002bc4      0x1e0 mov_bajo_nivel.o
+                0x00002bc4                set_coord(unsigned char, COORD3D, int, bool)
+ .text._ZN10Movimiento11get_pos_refEv
+                0x00002da4        0xa movimiento.o
+                0x00002da4                Movimiento::get_pos_ref()
+ .text._ZN10Movimiento4stopEv
+                0x00002dae        0xa movimiento.o
+                0x00002dae                Movimiento::stop()
+ .text._ZN10Movimiento4nsegEi
+                0x00002db8       0x22 movimiento.o
+                0x00002db8                Movimiento::nseg(int)
+ .text._ZN10Movimiento4nsegEihf
+                0x00002dda       0xaa movimiento.o
+                0x00002dda                Movimiento::nseg(int, unsigned char, float)
+ .text._ZN10Movimiento10inc_escalaEv
+                0x00002e84       0x78 movimiento.o
+                0x00002e84                Movimiento::inc_escala()
+ .text._ZN10Movimiento10dec_escalaEv
+                0x00002efc       0x78 movimiento.o
+                0x00002efc                Movimiento::dec_escala()
+ .text._ZN10Movimiento14caminata_init2Ev
+                0x00002f74       0xd6 movimiento.o
+                0x00002f74                Movimiento::caminata_init2()
+ .text._ZN10Movimiento14actual_pos_refEv
+                0x0000304a       0x14 movimiento.o
+                0x0000304a                Movimiento::actual_pos_ref()
+ .text._ZN10Movimiento11set_pos_refEP7COORD3D
+                0x0000305e       0x12 movimiento.o
+                0x0000305e                Movimiento::set_pos_ref(COORD3D*)
+ .text._ZN10Movimiento13caminata_initEv
+                0x00003070      0x3ba movimiento.o
+                0x00003070                Movimiento::caminata_init()
+ .text._ZN10Movimiento8caminataE7COORD2DfjPhhhhiiifhb
+                0x0000342a      0x14a movimiento.o
+                0x0000342a                Movimiento::caminata(COORD2D, float, unsigned int, unsigned char*, unsigned char, unsigned char, unsigned char, int, int, int, float, unsigned char, bool)
+ .text._ZN10Movimiento12goto_pos_refEv
+                0x00003574      0x10c movimiento.o
+                0x00003574                Movimiento::goto_pos_ref()
+ .text._ZN10Movimiento12goto_pos_refEP7COORD3D
+                0x00003680       0x16 movimiento.o
+                0x00003680                Movimiento::goto_pos_ref(COORD3D*)
+ .text._ZN10Movimiento8posicionEP7COORD3Dii
+                0x00003696      0x114 movimiento.o
+                0x00003696                Movimiento::posicion(COORD3D*, int, int)
+ .text._ZN10Movimiento6pasitoEh7COORD3DbfihS0_
+                0x000037aa      0x79c movimiento.o
+                0x000037aa                Movimiento::pasito(unsigned char, COORD3D, bool, float, int, unsigned char, COORD3D)
+ .text._ZN10Movimiento6troncoEP7COORD3DS0_S0_fffih
+                0x00003f46      0x522 movimiento.o
+                0x00003f46                Movimiento::tronco(COORD3D*, COORD3D, COORD3D, float, float, float, int, unsigned char)
+ .text._ZN10Movimiento6updateEm
+                0x00004468     0x1faa movimiento.o
+                0x00004468                Movimiento::update(unsigned long)
+ .text._ZN10Movimiento8rotationE7COORD3Dfffih
+                0x00006412      0x118 movimiento.o
+                0x00006412                Movimiento::rotation(COORD3D, float, float, float, int, unsigned char)
+ .text._ZN10Movimiento11translationE7COORD3Dih
+                0x0000652a      0x106 movimiento.o
+                0x0000652a                Movimiento::translation(COORD3D, int, unsigned char)
+ .text._ZN10Movimiento8caminataEffb7COORD2Dfhf
+                0x00006630      0xf66 movimiento.o
+                0x00006630                Movimiento::caminata(float, float, bool, COORD2D, float, unsigned char, float)
+ .text._ZN10Movimiento5rectaEfffhf
+                0x00007596       0xd8 movimiento.o
+                0x00007596                Movimiento::recta(float, float, float, unsigned char, float)
+ .text._ZN10Movimiento5curvaEff7COORD2Dbhf
+                0x0000766e      0x10c movimiento.o
+                0x0000766e                Movimiento::curva(float, float, COORD2D, bool, unsigned char, float)
+ .text._ZN10MovimientoC1Ev
+                0x0000777a      0x10a movimiento.o
+                0x0000777a                Movimiento::Movimiento()
+ .text._GLOBAL__I_mov
+                0x00007884        0xa movimiento.o
+ .text._ZN5Print5writeEPKc
+                0x0000788e       0x30 Print.o
+                0x0000788e                Print::write(char const*)
+ .text._ZN5Print5writeEPKhj
+                0x000078be       0x3e Print.o
+                0x000078be                Print::write(unsigned char const*, unsigned int)
+ .text._ZN10SerialcommC1Ev
+                0x000078fc        0x2 serialcomm.o
+                0x000078fc                Serialcomm::Serialcomm()
+ .text._ZN10Serialcomm9read_byteEv
+                0x000078fe       0x54 serialcomm.o
+                0x000078fe                Serialcomm::read_byte()
+ .text._ZN10Serialcomm11leer_serialEv
+                0x00007952       0x38 serialcomm.o
+                0x00007952                Serialcomm::leer_serial()
+ .text._ZN10SerialcommC1EP14HardwareSeriallhhPFvhhPhE
+                0x0000798a       0x82 serialcomm.o
+                0x0000798a                Serialcomm::Serialcomm(HardwareSerial*, long, unsigned char, unsigned char, void (*)(unsigned char, unsigned char, unsigned char*))
+ .text._Z4signi
+                0x00007a0c       0x16 util.o
+                0x00007a0c                sign(int)
+ .text._Z6randomf
+                0x00007a22       0x6c util.o
+                0x00007a22                random(float)
+ .text._Z6randomff
+                0x00007a8e       0x56 util.o
+                0x00007a8e                random(float, float)
+ .text._Z14brownian_noisePffff
+                0x00007ae4       0xfe util.o
+                0x00007ae4                brownian_noise(float*, float, float, float)
+ .text._Z10randomSeedj
+                0x00007be2        0xa util.o
+                0x00007be2                randomSeed(unsigned int)
+ .text._Z8sigmoidef
+                0x00007bec       0x24 util.o
+                0x00007bec                sigmoide(float)
+ .text._Z6bezierffff
+                0x00007c10       0xde vectores.o
+                0x00007c10                bezier(float, float, float, float)
+ .text._Z4suma7COORD3DS_
+                0x00007cee       0xd0 vectores.o
+                0x00007cee                suma(COORD3D, COORD3D)
+ .text._Z4suma7COORD2DS_
+                0x00007dbe       0xb6 vectores.o
+                0x00007dbe                suma(COORD2D, COORD2D)
+ .text._Z5resta7COORD3DS_
+                0x00007e74       0xd0 vectores.o
+                0x00007e74                resta(COORD3D, COORD3D)
+ .text._Z5resta7COORD2DS_
+                0x00007f44       0xb6 vectores.o
+                0x00007f44                resta(COORD2D, COORD2D)
+ .text._Z8producto7COORD3Df
+                0x00007ffa       0xdc vectores.o
+                0x00007ffa                producto(COORD3D, float)
+ .text._Z8producto7COORD2Df
+                0x000080d6       0x9e vectores.o
+                0x000080d6                producto(COORD2D, float)
+ .text._Z6xz2xyz7COORD2D
+                0x00008174       0x72 vectores.o
+                0x00008174                xz2xyz(COORD2D)
+ .text._Z6xyz2xz7COORD3D
+                0x000081e6       0x76 vectores.o
+                0x000081e6                xyz2xz(COORD3D)
+ .text._Z11applyMatrix7COORD3DPS_
+                0x0000825c      0x228 vectores.o
+                0x0000825c                applyMatrix(COORD3D, COORD3D*)
+ .text._Z11applyMatrix7COORD2DPS_
+                0x00008484      0x116 vectores.o
+                0x00008484                applyMatrix(COORD2D, COORD2D*)
+ .text._Z9sumasignaP7COORD3DS_
+                0x0000859a       0xd4 vectores.o
+                0x0000859a                sumasigna(COORD3D*, COORD3D)
+ .text._Z9sumasignaP7COORD2DS_
+                0x0000866e       0x92 vectores.o
+                0x0000866e                sumasigna(COORD2D*, COORD2D)
+ .text._Z10proyeccionP7COORD3DS0_
+                0x00008700      0x406 vectores.o
+                0x00008700                proyeccion(COORD3D*, COORD3D*)
+ .text._Z10patas2patah
+                0x00008b06       0x2c vectores.o
+                0x00008b06                patas2pata(unsigned char)
+ .text._Z8traslateP7COORD3DS_
+                0x00008b32      0x144 vectores.o
+                0x00008b32                traslate(COORD3D*, COORD3D)
+ .text._Z13edit_positionP7COORD3Dffff
+                0x00008c76      0x164 vectores.o
+                0x00008c76                edit_position(COORD3D*, float, float, float, float)
+ .text._Z9getOffseth
+                0x00008dda       0xa2 vectores.o
+                0x00008dda                getOffset(unsigned char)
+ .text._Z6rotateP7COORD3DS_S0_
+                0x00008e7c      0x294 vectores.o
+                0x00008e7c                rotate(COORD3D*, COORD3D, COORD3D*)
+ .text._Z8hexagonoffff
+                0x00009110      0x224 vectores.o
+                0x00009110                hexagono(float, float, float, float)
+ .text._Z9distancia7COORD2DS_
+                0x00009334       0x9e vectores.o
+                0x00009334                distancia(COORD2D, COORD2D)
+ .text._Z17getRotationMatrixP7COORD2Df
+                0x000093d2       0x6c vectores.o
+                0x000093d2                getRotationMatrix(COORD2D*, float)
+ .text._Z17getRotationMatrixP7COORD3Dfff
+                0x0000943e      0x278 vectores.o
+                0x0000943e                getRotationMatrix(COORD3D*, float, float, float)
+ .text.analogRead
+                0x000096b6       0x68 wiring_analog.o
+                0x000096b6                analogRead
+ .text.analogWrite
+                0x0000971e      0x1b6 wiring_analog.o
+                0x0000971e                analogWrite
+ .text.pinMode  0x000098d4       0x4c wiring_digital.o
+                0x000098d4                pinMode
+ .text.turnOffPWM
+                0x00009920       0xe6 wiring_digital.o
+ .text.digitalWrite
+                0x00009a06       0x6a wiring_digital.o
+                0x00009a06                digitalWrite
+ .text._ZN6String11toCharArrayEv
+                0x00009a70        0x8 WString.o
+                0x00009a70                String::toCharArray()
+ .text._ZN6StringD1Ev
+                0x00009a78       0x20 WString.o
+                0x00009a78                String::~String()
+ .text._ZN6StringpLERKS_
+                0x00009a98       0x70 WString.o
+                0x00009a98                String::operator+=(String const&)
+ .text._ZN6String9getBufferEj
+                0x00009b08       0x28 WString.o
+                0x00009b08                String::getBuffer(unsigned int)
+ .text._ZN6StringaSERKS_
+                0x00009b30       0x60 WString.o
+                0x00009b30                String::operator=(String const&)
+ .text._ZN6StringC1ERKS_
+                0x00009b90       0x36 WString.o
+                0x00009b90                String::String(String const&)
+ .text._ZN6StringC1EPKc
+                0x00009bc6       0x50 WString.o
+                0x00009bc6                String::String(char const*)
+ .text._ZN6StringC1Eii
+                0x00009c16       0x78 WString.o
+                0x00009c16                String::String(int, int)
+ .text._ZN13RemoteControl11displayTextEv
+                0x00009c8e       0x78 remote_control.o
+                0x00009c8e                RemoteControl::displayText()
+ .text._ZN13RemoteControlC1Ev
+                0x00009d06       0xb6 remote_control.o
+                0x00009d06                RemoteControl::RemoteControl()
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x00009dbc       0x32 remote_control.o
+ .text._GLOBAL__D_rc
+                0x00009dee        0xe remote_control.o
+ .text._GLOBAL__I_rc
+                0x00009dfc        0xe remote_control.o
+ .text._ZN13RemoteControl12float2stringEf
+                0x00009e0a      0x156 remote_control.o
+                0x00009e0a                RemoteControl::float2string(float)
+ .text._ZN13RemoteControl13editar_centroEh
+                0x00009f60      0x4ac remote_control.o
+                0x00009f60                RemoteControl::editar_centro(unsigned char)
+ .text._ZN13RemoteControl10editar_posEh
+                0x0000a40c      0x566 remote_control.o
+                0x0000a40c                RemoteControl::editar_pos(unsigned char)
+ .text._ZN13RemoteControl10rotacionesEh
+                0x0000a972      0x742 remote_control.o
+                0x0000a972                RemoteControl::rotaciones(unsigned char)
+ .text._ZN13RemoteControl12traslacionesEh
+                0x0000b0b4      0x64e remote_control.o
+                0x0000b0b4                RemoteControl::traslaciones(unsigned char)
+ .text._ZN13RemoteControl9caminatasEh
+                0x0000b702      0xa9a remote_control.o
+                0x0000b702                RemoteControl::caminatas(unsigned char)
+ .text._ZN13RemoteControl16procesar_comandoEh
+                0x0000c19c      0x6cc remote_control.o
+                0x0000c19c                RemoteControl::procesar_comando(unsigned char)
+ .text.avr-libc.fplib
+                0x0000c868       0x1c c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(acos.o)
+                0x0000c868                acos
+ .text.avr-libc.fplib
+                0x0000c884        0xa c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                0x0000c884                __subsf3
+                0x0000c886                __addsf3
+ .text.avr-libc.fplib
+                0x0000c88e       0xc0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                0x0000c8a8                __addsf3x
+ .text.avr-libc.fplib
+                0x0000c94e       0x50 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(atan.o)
+                0x0000c94e                atan
+ .text.avr-libc.fplib
+                0x0000c99e        0x8 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+                0x0000c99e                __lesf2
+                0x0000c99e                __nesf2
+                0x0000c99e                __eqsf2
+                0x0000c99e                __cmpsf2
+                0x0000c99e                __ltsf2
+ .text.avr-libc.fplib
+                0x0000c9a6        0x6 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(cos.o)
+                0x0000c9a6                cos
+ .text.avr-libc.fplib
+                0x0000c9ac        0x4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                0x0000c9ac                __divsf3
+ .text.avr-libc.fplib
+                0x0000c9b0       0xcc c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                0x0000c9c6                __divsf3x
+                0x0000c9ca                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000ca7c       0x62 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(exp.o)
+                0x0000ca86                exp
+ .text.avr-libc.fplib
+                0x0000cade        0xa c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixsfsi.o)
+                0x0000cade                __fixsfsi
+ .text.avr-libc.fplib
+                0x0000cae8       0x58 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                0x0000cae8                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000cb40       0x7a c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x0000cb44                __floatsisf
+                0x0000cb40                __floatunsisf
+ .text.avr-libc.fplib
+                0x0000cbba       0x36 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_arccos.o)
+                0x0000cbba                __fp_arccos
+ .text.avr-libc.fplib
+                0x0000cbf0       0x48 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+                0x0000cbf0                __fp_cmp
+ .text.avr-libc.fplib
+                0x0000cc38        0xc c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x0000cc38                __fp_inf
+ .text.avr-libc.fplib
+                0x0000cc44        0x6 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x0000cc44                __fp_nan
+ .text.avr-libc.fplib
+                0x0000cc4a       0x4a c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powser.o)
+                0x0000cc4a                __fp_powser
+ .text.avr-libc.fplib
+                0x0000cc94        0xe c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x0000cc94                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000cca2        0xe c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x0000cca2                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000ccb0       0x50 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_rempio2.o)
+                0x0000ccb2                __fp_rempio2
+ .text.avr-libc.fplib
+                0x0000cd00       0x22 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x0000cd00                __fp_round
+ .text.avr-libc.fplib
+                0x0000cd22       0x22 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_sinus.o)
+                0x0000cd22                __fp_sinus
+ .text.avr-libc.fplib
+                0x0000cd44       0x44 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x0000cd44                __fp_split3
+                0x0000cd54                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000cd88        0xe c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x0000cd88                __fp_zero
+                0x0000cd8a                __fp_szero
+ .text.avr-libc.fplib
+                0x0000cd96        0x8 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(gesf2.o)
+                0x0000cd96                __gtsf2
+                0x0000cd96                __gesf2
+ .text.avr-libc.fplib
+                0x0000cd9e       0xc2 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(hypot.o)
+                0x0000cdb0                hypot
+ .text.avr-libc.fplib
+                0x0000ce60        0xe c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(inverse.o)
+                0x0000ce60                inverse
+ .text.avr-libc.fplib
+                0x0000ce6e       0x6c c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(ldexp.o)
+                0x0000ce72                ldexp
+ .text.avr-libc.fplib
+                0x0000ceda       0x66 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(modf.o)
+                0x0000ceda                modff
+                0x0000ceda                modf
+ .text.avr-libc.fplib
+                0x0000cf40        0x4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                0x0000cf40                __mulsf3
+ .text.avr-libc.fplib
+                0x0000cf44       0xc2 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                0x0000cf5c                __mulsf3_pse
+                0x0000cf58                __mulsf3x
+ .text.avr-libc.fplib
+                0x0000d006        0xc c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sin.o)
+                0x0000d006                sin
+ .text.avr-libc.fplib
+                0x0000d012       0x84 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(sqrt.o)
+                0x0000d01a                sqrt
+ .text.avr-libc.fplib
+                0x0000d096        0x6 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(square.o)
+                0x0000d096                square
+ .text.avr-libc.fplib
+                0x0000d09c       0x1c c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_mpack.o)
+                0x0000d0a0                __fp_mpack_finite
+                0x0000d09c                __fp_mpack
+ .text.avr-libc.fplib
+                0x0000d0b8        0xe c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_norm2.o)
+                0x0000d0b8                __fp_norm2
+ .text.avr-libc.fplib
+                0x0000d0c6       0x22 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libm.a(fp_powsodd.o)
+                0x0000d0c6                __fp_powsodd
+ .text.avr-libc
+                0x0000d0e8      0x20a c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x0000d0e8                malloc
+                0x0000d242                free
+ .text.avr-libc
+                0x0000d2f2       0xd6 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+                0x0000d3a2                rand_r
+                0x0000d3a8                rand
+                0x0000d3b2                srand
+ .text.avr-libc
+                0x0000d3c8      0x1b8 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(realloc.o)
+                0x0000d3c8                realloc
+ .text.avr-libc
+                0x0000d580        0x6 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(exit.o)
+                0x0000d580                exit
+ .text.avr-libc
+                0x0000d586       0x12 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(memcpy.o)
+                0x0000d586                memcpy
+ .text.avr-libc
+                0x0000d598       0x16 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcat.o)
+                0x0000d598                strcat
+ .text.avr-libc
+                0x0000d5ae        0xe c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strcpy.o)
+                0x0000d5ae                strcpy
+ .text.avr-libc
+                0x0000d5bc       0x42 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(itoa.o)
+                0x0000d5bc                itoa
+ .text.avr-libc
+                0x0000d5fe       0x20 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strrev.o)
+                0x0000d5fe                strrev
+ .text.libgcc   0x0000d61e       0x3e c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                0x0000d61e                __mulsi3
+ .text.libgcc   0x0000d65c       0x18 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                0x0000d65c                __udivmodqi4
+ .text.libgcc   0x0000d674       0x28 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                0x0000d674                __udivmodhi4
+ .text.libgcc   0x0000d69c       0x26 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                0x0000d69c                __divmodhi4
+                0x0000d69c                _div
+ .text.libgcc   0x0000d6c2       0x44 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                0x0000d6c2                __udivmodsi4
+ .text.libgcc   0x0000d706       0x36 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+                0x0000d706                __divmodsi4
+ .text.libgcc   0x0000d73c        0xc c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_tablejump.o)
+                0x0000d740                __tablejump__
+                0x0000d73c                __tablejump2__
+                0x0000d748                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000d748        0x0 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x0000d748                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x0000d748       0x16 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_dtors.o)
+                0x0000d748                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000d75e        0x4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000d762                _etext = .
+
+.data           0x00800200      0x1fc load address 0x0000d762
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200       0x28 main.o
+ .data          0x00800228       0x15 mov_bajo_nivel.o
+ .data          0x0080023d        0x1 WString.o
+ .data          0x0080023e      0x117 remote_control.o
+ .data          0x00800355        0x6 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800357                __malloc_heap_start
+                0x00800359                __malloc_heap_end
+                0x00800355                __malloc_margin
+ .data          0x0080035b        0x4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+ *(.data*)
+ .data._ZN6Cabeza6valuesE
+                0x0080035f        0x8 cabeza.o
+                0x0080035f                Cabeza::values
+ .data.timer0_int_flag
+                0x00800367        0x1 hardware.o
+                0x00800367                timer0_int_flag
+ .data.analog_reference
+                0x00800368        0x1 wiring_analog.o
+                0x00800368                analog_reference
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZZN6Events6searchEhiE3C.4
+                0x00800369        0xc events.o
+ .rodata._ZTV14HardwareSerial
+                0x00800375        0xa HardwareSerial.o
+                0x00800375                vtable for HardwareSerial
+ .rodata._ZL3ids
+                0x0080037f       0x12 mov_bajo_nivel.o
+ .rodata._ZZN10Movimiento12goto_pos_refEvE4C.16
+                0x00800391        0x6 movimiento.o
+ .rodata._ZZN10Movimiento12goto_pos_refEvE4C.15
+                0x00800397        0x8 movimiento.o
+ .rodata._ZZN10Movimiento8rotationE7COORD3DfffihE4C.11
+                0x0080039f        0xc movimiento.o
+ .rodata._ZZN10Movimiento11translationE7COORD3DihE4C.10
+                0x008003ab        0xc movimiento.o
+ .rodata._ZZN10Movimiento8caminataEffb7COORD2DfhfE3C.3
+                0x008003b7        0x3 movimiento.o
+ .rodata._ZZN10Movimiento8caminataEffb7COORD2DfhfE3C.2
+                0x008003ba        0x6 movimiento.o
+ .rodata._ZZN10Movimiento5rectaEfffhfE3C.0
+                0x008003c0        0x8 movimiento.o
+ .rodata._ZZN13RemoteControl9caminatasEhE4C.32
+                0x008003c8        0x8 remote_control.o
+ .rodata._ZZN13RemoteControl9caminatasEhE4C.31
+                0x008003d0        0x8 remote_control.o
+ .rodata._ZZN13RemoteControl16procesar_comandoEhE3C.9
+                0x008003d8        0x8 remote_control.o
+ .rodata._ZZN13RemoteControl16procesar_comandoEhE3C.6
+                0x008003e0        0x8 remote_control.o
+ .rodata._ZZN13RemoteControlC1EvE3C.1
+                0x008003e8        0xc remote_control.o
+ .rodata._ZZN13RemoteControlC1EvE3C.0
+                0x008003f4        0x8 remote_control.o
+ *(.gnu.linkonce.d*)
+                0x008003fc                . = ALIGN (0x2)
+                0x008003fc                _edata = .
+                0x008003fc                PROVIDE (__data_end, .)
+
+.bss            0x008003fc      0x527
+                0x008003fc                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZN4AX1212ax_rx_bufferE
+                0x008003fc       0x20 ax12.o
+                0x008003fc                AX12::ax_rx_buffer
+ .bss._ZN4AX1213ax_rx_PointerE
+                0x0080041c        0x1 ax12.o
+                0x0080041c                AX12::ax_rx_Pointer
+ .bss.kbza      0x0080041d        0xd cabeza.o
+                0x0080041d                kbza
+ .bss._ZN6Cabeza7cm_distE
+                0x0080042a        0x1 cabeza.o
+                0x0080042a                Cabeza::cm_dist
+ .bss._ZN6Cabeza3velE
+                0x0080042b        0x1 cabeza.o
+                0x0080042b                Cabeza::vel
+ .bss._ZN6Cabeza3latE
+                0x0080042c        0x1 cabeza.o
+                0x0080042c                Cabeza::lat
+ .bss._ZN6Cabeza8evnt_velE
+                0x0080042d        0x1 cabeza.o
+                0x0080042d                Cabeza::evnt_vel
+ .bss._ZN6Cabeza8evnt_latE
+                0x0080042e        0x1 cabeza.o
+                0x0080042e                Cabeza::evnt_lat
+ .bss._ZN6Cabeza7mm_distE
+                0x0080042f        0x2 cabeza.o
+                0x0080042f                Cabeza::mm_dist
+ .bss.pantalla  0x00800431        0xb display.o
+                0x00800431                pantalla
+ .bss._ZZN7Display6updateEmE5timer
+                0x0080043c        0x4 display.o
+ .bss._ZZN7Display6updateEmE2sc
+                0x00800440        0x1 display.o
+ .bss.eventos   0x00800441        0x9 events.o
+                0x00800441                eventos
+ .bss.timer0_overflow_count
+                0x0080044a        0x4 hardware.o
+                0x0080044a                timer0_overflow_count
+ .bss.timer0_millis
+                0x0080044e        0x4 hardware.o
+                0x0080044e                timer0_millis
+ .bss._ZL12timer0_fract
+                0x00800452        0x1 hardware.o
+ .bss.rx_buffer
+                0x00800453       0x84 HardwareSerial.o
+                0x00800453                rx_buffer
+ .bss.rx_buffer2
+                0x008004d7       0x84 HardwareSerial.o
+                0x008004d7                rx_buffer2
+ .bss.rx_buffer3
+                0x0080055b       0x84 HardwareSerial.o
+                0x0080055b                rx_buffer3
+ .bss.Serial    0x008005df       0x13 HardwareSerial.o
+                0x008005df                Serial
+ .bss.Serial2   0x008005f2       0x13 HardwareSerial.o
+                0x008005f2                Serial2
+ .bss.Serial3   0x00800605       0x13 HardwareSerial.o
+                0x00800605                Serial3
+ .bss.motors    0x00800618       0x36 mov_bajo_nivel.o
+                0x00800618                motors
+ .bss.broadcast
+                0x0080064e        0x3 mov_bajo_nivel.o
+                0x0080064e                broadcast
+ .bss.ang_des   0x00800651       0x24 mov_bajo_nivel.o
+                0x00800651                ang_des
+ .bss.dur_des   0x00800675       0x24 mov_bajo_nivel.o
+                0x00800675                dur_des
+ .bss.pos_des   0x00800699       0x48 mov_bajo_nivel.o
+                0x00800699                pos_des
+ .bss._ZZ12motor_updatevE7ang_act
+                0x008006e1       0x24 mov_bajo_nivel.o
+ .bss.mov       0x00800705      0x1ce movimiento.o
+                0x00800705                mov
+ .bss._ZZN10Movimiento6updateEmE5timer
+                0x008008d3        0x4 movimiento.o
+ .bss.rc        0x008008d7       0x43 remote_control.o
+                0x008008d7                rc
+ .bss._ZZN13RemoteControl10editar_posEhE13edit_pos_modo
+                0x0080091a        0x1 remote_control.o
+ .bss._ZZN13RemoteControl9caminatasEhE8anguloso
+                0x0080091b        0x4 remote_control.o
+ *(COMMON)
+ COMMON         0x0080091f        0x4 c:/archivos de programa/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x0080091f                __brkval
+                0x00800921                __flp
+                0x00800923                PROVIDE (__bss_end, .)
+                0x0000d762                __data_load_start = LOADADDR (.data)
+                0x0000d95e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800923        0x0
+                0x00800923                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800923                PROVIDE (__noinit_end, .)
+                0x00800923                _end = .
+                0x00800923                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xb68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x168 ax12.o
+ .debug_aranges
+                0x00000168       0x78 cabeza.o
+ .debug_aranges
+                0x000001e0      0x140 display.o
+ .debug_aranges
+                0x00000320       0x70 events.o
+ .debug_aranges
+                0x00000390       0x78 hardware.o
+ .debug_aranges
+                0x00000408       0x80 HardwareSerial.o
+ .debug_aranges
+                0x00000488       0x20 main.o
+ .debug_aranges
+                0x000004a8       0x70 mov_bajo_nivel.o
+ .debug_aranges
+                0x00000518      0x100 movimiento.o
+ .debug_aranges
+                0x00000618       0xd0 Print.o
+ .debug_aranges
+                0x000006e8       0x60 serialcomm.o
+ .debug_aranges
+                0x00000748       0x68 util.o
+ .debug_aranges
+                0x000007b0       0xe8 vectores.o
+ .debug_aranges
+                0x00000898       0x30 wiring_analog.o
+ .debug_aranges
+                0x000008c8       0x38 wiring_digital.o
+ .debug_aranges
+                0x00000900      0x1e0 WString.o
+ .debug_aranges
+                0x00000ae0       0x88 remote_control.o
+
+.debug_pubnames
+                0x00000000     0x1b9c
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x32a ax12.o
+ .debug_pubnames
+                0x0000032a      0x19b cabeza.o
+ .debug_pubnames
+                0x000004c5      0x332 display.o
+ .debug_pubnames
+                0x000007f7       0xe5 events.o
+ .debug_pubnames
+                0x000008dc      0x102 hardware.o
+ .debug_pubnames
+                0x000009de      0x19c HardwareSerial.o
+ .debug_pubnames
+                0x00000b7a       0x1b main.o
+ .debug_pubnames
+                0x00000b95       0xd8 mov_bajo_nivel.o
+ .debug_pubnames
+                0x00000c6d      0x2e7 movimiento.o
+ .debug_pubnames
+                0x00000f54       0xad pins_arduino.o
+ .debug_pubnames
+                0x00001001      0x1b8 Print.o
+ .debug_pubnames
+                0x000011b9      0x108 serialcomm.o
+ .debug_pubnames
+                0x000012c1       0x95 util.o
+ .debug_pubnames
+                0x00001356      0x183 vectores.o
+ .debug_pubnames
+                0x000014d9       0x5a wiring_analog.o
+ .debug_pubnames
+                0x00001533       0x3f wiring_digital.o
+ .debug_pubnames
+                0x00001572      0x4c4 WString.o
+ .debug_pubnames
+                0x00001a36      0x166 remote_control.o
+
+.debug_info     0x00000000    0x10372
+ *(.debug_info)
+ .debug_info    0x00000000     0x140a ax12.o
+ .debug_info    0x0000140a     0x1125 cabeza.o
+ .debug_info    0x0000252f     0x1074 display.o
+ .debug_info    0x000035a3      0x7c2 events.o
+ .debug_info    0x00003d65     0x16d2 hardware.o
+ .debug_info    0x00005437      0xa8f HardwareSerial.o
+ .debug_info    0x00005ec6     0x11b2 main.o
+ .debug_info    0x00007078     0x194c mov_bajo_nivel.o
+ .debug_info    0x000089c4     0x1767 movimiento.o
+ .debug_info    0x0000a12b      0x158 pins_arduino.o
+ .debug_info    0x0000a283     0x1297 Print.o
+ .debug_info    0x0000b51a      0x5b4 serialcomm.o
+ .debug_info    0x0000bace      0x453 util.o
+ .debug_info    0x0000bf21      0xc34 vectores.o
+ .debug_info    0x0000cb55      0x1a8 wiring_analog.o
+ .debug_info    0x0000ccfd      0x49d wiring_digital.o
+ .debug_info    0x0000d19a     0x17c8 WString.o
+ .debug_info    0x0000e962     0x1a10 remote_control.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x2c6f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x39a ax12.o
+ .debug_abbrev  0x0000039a      0x2d8 cabeza.o
+ .debug_abbrev  0x00000672      0x2ad display.o
+ .debug_abbrev  0x0000091f      0x2c2 events.o
+ .debug_abbrev  0x00000be1      0x42a hardware.o
+ .debug_abbrev  0x0000100b      0x328 HardwareSerial.o
+ .debug_abbrev  0x00001333      0x236 main.o
+ .debug_abbrev  0x00001569      0x3b7 mov_bajo_nivel.o
+ .debug_abbrev  0x00001920      0x389 movimiento.o
+ .debug_abbrev  0x00001ca9       0x97 pins_arduino.o
+ .debug_abbrev  0x00001d40      0x269 Print.o
+ .debug_abbrev  0x00001fa9      0x17a serialcomm.o
+ .debug_abbrev  0x00002123      0x112 util.o
+ .debug_abbrev  0x00002235      0x207 vectores.o
+ .debug_abbrev  0x0000243c      0x117 wiring_analog.o
+ .debug_abbrev  0x00002553      0x152 wiring_digital.o
+ .debug_abbrev  0x000026a5      0x29c WString.o
+ .debug_abbrev  0x00002941      0x32e remote_control.o
+
+.debug_line     0x00000000     0x6823
+ *(.debug_line)
+ .debug_line    0x00000000      0xc24 ax12.o
+ .debug_line    0x00000c24      0x359 cabeza.o
+ .debug_line    0x00000f7d      0x73b display.o
+ .debug_line    0x000016b8      0x446 events.o
+ .debug_line    0x00001afe      0x55d hardware.o
+ .debug_line    0x0000205b      0x5b7 HardwareSerial.o
+ .debug_line    0x00002612      0x1c4 main.o
+ .debug_line    0x000027d6      0x5a4 mov_bajo_nivel.o
+ .debug_line    0x00002d7a      0xb2b movimiento.o
+ .debug_line    0x000038a5       0xd7 pins_arduino.o
+ .debug_line    0x0000397c      0x5ad Print.o
+ .debug_line    0x00003f29      0x313 serialcomm.o
+ .debug_line    0x0000423c      0x241 util.o
+ .debug_line    0x0000447d      0x663 vectores.o
+ .debug_line    0x00004ae0      0x28e wiring_analog.o
+ .debug_line    0x00004d6e      0x2b9 wiring_digital.o
+ .debug_line    0x00005027      0xc90 WString.o
+ .debug_line    0x00005cb7      0xb6c remote_control.o
+
+.debug_frame    0x00000000     0x14b0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2b0 ax12.o
+ .debug_frame   0x000002b0       0xd0 cabeza.o
+ .debug_frame   0x00000380      0x260 display.o
+ .debug_frame   0x000005e0       0xc0 events.o
+ .debug_frame   0x000006a0       0xd0 hardware.o
+ .debug_frame   0x00000770       0xe0 HardwareSerial.o
+ .debug_frame   0x00000850       0x20 main.o
+ .debug_frame   0x00000870       0xc0 mov_bajo_nivel.o
+ .debug_frame   0x00000930      0x1e0 movimiento.o
+ .debug_frame   0x00000b10      0x180 Print.o
+ .debug_frame   0x00000c90       0xa0 serialcomm.o
+ .debug_frame   0x00000d30       0xb0 util.o
+ .debug_frame   0x00000de0      0x1b0 vectores.o
+ .debug_frame   0x00000f90       0x40 wiring_analog.o
+ .debug_frame   0x00000fd0       0x50 wiring_digital.o
+ .debug_frame   0x00001020      0x3a0 WString.o
+ .debug_frame   0x000013c0       0xf0 remote_control.o
+
+.debug_str      0x00000000     0x2fab
+ *(.debug_str)
+ .debug_str     0x00000000      0x5dc ax12.o
+                                0x651 (size before relaxing)
+ .debug_str     0x000005dc      0xa7e cabeza.o
+                                0xb9b (size before relaxing)
+ .debug_str     0x0000105a      0x5f7 display.o
+                                0x731 (size before relaxing)
+ .debug_str     0x00001651      0x1c3 events.o
+                                0x300 (size before relaxing)
+ .debug_str     0x00001814      0x6e5 hardware.o
+                               0x1111 (size before relaxing)
+ .debug_str     0x00001ef9      0x21f HardwareSerial.o
+                                0x36b (size before relaxing)
+ .debug_str     0x00002118       0x3e main.o
+                                0xe5d (size before relaxing)
+ .debug_str     0x00002156      0x184 mov_bajo_nivel.o
+                               0x106e (size before relaxing)
+ .debug_str     0x000022da      0x17d movimiento.o
+                                0xa02 (size before relaxing)
+ .debug_str     0x00002457       0xce pins_arduino.o
+                                0x150 (size before relaxing)
+ .debug_str     0x00002525      0x29e Print.o
+                                0x84f (size before relaxing)
+ .debug_str     0x000027c3       0x85 serialcomm.o
+                                0x253 (size before relaxing)
+ .debug_str     0x00002848      0x15f util.o
+                                0x24a (size before relaxing)
+ .debug_str     0x000029a7      0x340 vectores.o
+                                0x4ad (size before relaxing)
+ .debug_str     0x00002ce7       0x8f wiring_analog.o
+                                0x13b (size before relaxing)
+ .debug_str     0x00002d76       0x6d wiring_digital.o
+                                0x1a8 (size before relaxing)
+ .debug_str     0x00002de3       0xd6 WString.o
+                                0x676 (size before relaxing)
+ .debug_str     0x00002eb9       0xf2 remote_control.o
+                               0x1383 (size before relaxing)
+
+.debug_loc      0x00000000     0x718d
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xe97 ax12.o
+ .debug_loc     0x00000e97      0x354 cabeza.o
+ .debug_loc     0x000011eb      0xa50 display.o
+ .debug_loc     0x00001c3b      0x478 events.o
+ .debug_loc     0x000020b3      0x164 hardware.o
+ .debug_loc     0x00002217      0x3d2 HardwareSerial.o
+ .debug_loc     0x000025e9      0x232 mov_bajo_nivel.o
+ .debug_loc     0x0000281b     0x11cc movimiento.o
+ .debug_loc     0x000039e7      0xb37 Print.o
+ .debug_loc     0x0000451e      0x39d serialcomm.o
+ .debug_loc     0x000048bb      0x407 util.o
+ .debug_loc     0x00004cc2      0x674 vectores.o
+ .debug_loc     0x00005336      0x19d wiring_analog.o
+ .debug_loc     0x000054d3      0x214 wiring_digital.o
+ .debug_loc     0x000056e7     0x1537 WString.o
+ .debug_loc     0x00006c1e      0x56f remote_control.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(v8.1.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0xbb8
+ .debug_ranges  0x00000000      0x178 ax12.o
+ .debug_ranges  0x00000178       0x70 cabeza.o
+ .debug_ranges  0x000001e8      0x138 display.o
+ .debug_ranges  0x00000320       0x80 events.o
+ .debug_ranges  0x000003a0       0x70 hardware.o
+ .debug_ranges  0x00000410       0x78 HardwareSerial.o
+ .debug_ranges  0x00000488       0x18 main.o
+ .debug_ranges  0x000004a0       0x98 mov_bajo_nivel.o
+ .debug_ranges  0x00000538      0x158 movimiento.o
+ .debug_ranges  0x00000690       0xc8 Print.o
+ .debug_ranges  0x00000758       0x58 serialcomm.o
+ .debug_ranges  0x000007b0       0x60 util.o
+ .debug_ranges  0x00000810       0xf8 vectores.o
+ .debug_ranges  0x00000908       0x28 wiring_analog.o
+ .debug_ranges  0x00000930       0x30 wiring_digital.o
+ .debug_ranges  0x00000960      0x1d8 WString.o
+ .debug_ranges  0x00000b38       0x80 remote_control.o
