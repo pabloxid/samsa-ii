@@ -72,7 +72,8 @@
 // teclas numéricas = lo que dicen
 
 // modos del control remoto
-enum {REMOTE_OFF, CAMINATAS1, CAMINATAS2, TRASLACIONES, ROTACIONES, EDITAR_CENTRO, EDITAR_POS};
+enum {REMOTE_OFF, CAMINATAS1, CAMINATAS2, TRASLACIONES, ROTACIONES, EDITAR_CENTRO, EDITAR_POS, OSCILADORES1,  OSCILADORES2, OSCILADORES3};
+
 
 class RemoteControl {
 
@@ -108,6 +109,7 @@ class RemoteControl {
 	  void rotaciones (byte comando);
 		void editar_centro (byte comando);
 		void editar_pos (byte comando);
+		void osciladores (byte comando);
 		
 };
 

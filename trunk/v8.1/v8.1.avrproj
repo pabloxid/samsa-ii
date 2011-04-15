@@ -35,7 +35,7 @@
   <BurnFuseBox>-U lfuse:w:0xff:m -U hfuse:w:0xda:m -U efuse:w:0xf5:m</BurnFuseBox>
   <BurnBaud>57600</BurnBaud>
   <BurnAutoReset>true</BurnAutoReset>
-  <LastFile>remote_control.cpp</LastFile>
+  <LastFile>movimiento.cpp</LastFile>
   <FileList>
     <File>
       <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.1\ax12.cpp'-->
@@ -43,7 +43,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>616</CursorPos>
+      <CursorPos>17515</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -160,7 +160,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>true</WasOpen>
-      <CursorPos>1077</CursorPos>
+      <CursorPos>1755</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -186,8 +186,8 @@
       <RelPath>movimiento.cpp</RelPath>
       <ToCompile>true</ToCompile>
       <Options />
-      <WasOpen>false</WasOpen>
-      <CursorPos>14290</CursorPos>
+      <WasOpen>true</WasOpen>
+      <CursorPos>6613</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -195,8 +195,8 @@
       <RelPath>movimiento.h</RelPath>
       <ToCompile>false</ToCompile>
       <Options />
-      <WasOpen>false</WasOpen>
-      <CursorPos>1776</CursorPos>
+      <WasOpen>true</WasOpen>
+      <CursorPos>1325</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -256,7 +256,7 @@
     <File>
       <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.1\Tone.cpp'-->
       <RelPath>Tone.cpp</RelPath>
-      <ToCompile>false</ToCompile>
+      <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
       <CursorPos>6937</CursorPos>
@@ -310,7 +310,7 @@
     <File>
       <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.1\WInterrupts.c'-->
       <RelPath>WInterrupts.c</RelPath>
-      <ToCompile>false</ToCompile>
+      <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
       <CursorPos>133</CursorPos>
@@ -346,7 +346,7 @@
     <File>
       <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.1\wiring_pulse.c'-->
       <RelPath>wiring_pulse.c</RelPath>
-      <ToCompile>false</ToCompile>
+      <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
       <CursorPos>946</CursorPos>
@@ -355,7 +355,7 @@
     <File>
       <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.1\wiring_shift.c'-->
       <RelPath>wiring_shift.c</RelPath>
-      <ToCompile>false</ToCompile>
+      <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
       <CursorPos>1060</CursorPos>
@@ -385,7 +385,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>true</WasOpen>
-      <CursorPos>16718</CursorPos>
+      <CursorPos>20174</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -393,8 +393,8 @@
       <RelPath>remote_control.h</RelPath>
       <ToCompile>false</ToCompile>
       <Options />
-      <WasOpen>false</WasOpen>
-      <CursorPos>2929</CursorPos>
+      <WasOpen>true</WasOpen>
+      <CursorPos>2531</CursorPos>
       <Bookmarks />
     </File>
   </FileList>

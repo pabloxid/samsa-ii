@@ -33,6 +33,7 @@
 #include "Print.h"
 #include "Display.h"
 #include "string.h"
+#include "ax12.h"               // por el eterno bin2sign()
 
 RemoteControl rc;                     // ojebto
 
@@ -153,13 +154,22 @@ void RemoteControl::procesar_comando (byte comando) {
 					case RC_GAMEZONE: 
 						if (isMoving || pantalla.isBusy() || modo==REMOTE_OFF) {break;}
 						color1 = RGB(1, 3, 3);
-						texto1 = "osciladores 1";
+						texto1 = "osc. traslacion";
+						modo = OSCILADORES1;
 						break;
 					case RC_APPLICATION: 
 						if (isMoving || pantalla.isBusy() || modo==REMOTE_OFF) {break;}
 						color1 = RGB(1, 3, 3);
-						texto1 = "osciladores 2";
+						texto1 = "osc. rotacion";
+						modo = OSCILADORES3;
 						break;
+					case RC_TV+100: 
+						if (isMoving || pantalla.isBusy() || modo==REMOTE_OFF) {break;}
+						color1 = RGB(1, 3, 3);
+						texto1 = "osc. centro";
+						modo = OSCILADORES2;
+						break;
+						
 				}
 			} else {
 				switch (modo) {
@@ -168,6 +178,7 @@ void RemoteControl::procesar_comando (byte comando) {
 					case ROTACIONES: rotaciones (comando); break;
 					case EDITAR_CENTRO: editar_centro (comando); break;
 					case EDITAR_POS: editar_pos (comando); break;
+					case OSCILADORES1: case OSCILADORES2: case OSCILADORES3: osciladores (comando); break;
 				}
 			}
 	}
@@ -592,10 +603,194 @@ void RemoteControl::editar_pos (byte comando) {
 	
 }
 
+void RemoteControl::osciladores (byte comando) {
+	
+	//* durante el play se enlentece mucho
+	// hay que hacer un flag is_playing para que las teclas adopten otra función
+	// y falta la new feature: el damping factor
+	//* las unidades de amplitud de rotación son muy grandes
+	//* y las de amplitud de centro son muy chicas
+	// falta una manera rápida de resetear todo
+	// un boton reset y un boton "randomize"
+	// en los modos normales de traslación y rotación, que vuelva a pos_ref en forma de oscilaciones dampereadas
+	// que en las repeticiones aumente progresivamente el inc
+	
+	
+	static byte parametro = TRASL_X;
+	byte sub_parametro;
+	char increment = 0;
+		
+	switch (comando) {
+		case RC_UP:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro = TRASL_Z;
+			sub_parametro = AMP;
+			increment = 1;
+			break;
+		
+		case RC_DOWN:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro = TRASL_Z;
+			sub_parametro = AMP;
+			increment = -1;
+			break;
+		
+		case RC_RIGHT:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro = TRASL_X;
+			sub_parametro = AMP;
+			increment = 1;
+			break;
+	
+		case RC_LEFT:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro = TRASL_X;
+			sub_parametro = AMP;
+			increment = -1;
+			break;
+
+		case RC_MTS:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro = TRASL_Y;
+			sub_parametro = AMP;
+			increment = -1;
+			break;
+			
+		case RC_MENU:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro = TRASL_Y;
+			sub_parametro = AMP;
+			increment = 1;
+			break;
+			
+		case RC_CCTTX:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro %= 3;
+			sub_parametro = BROWN;
+			increment = -1;
+			break;
+			
+		case RC_EXIT:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro %= 3;
+			sub_parametro = BROWN;
+			increment = 1;
+			break;
+			
+		case RC_ENTER1:
+			if (!isMoving) {
+				texto1 = "PLAY";
+				mov.oscilador (1, 32767);
+				isMoving = true;
+			} else {
+				texto1 = "STOP";
+				mov.stop();
+				isMoving = false;
+			}
+			break;
+			
+		case RC_CH_UP:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro %= 3;
+			sub_parametro = PHASE;
+			increment = 1;
+			break;
+			
+		case RC_CH_DN:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro %= 3;
+			sub_parametro = PHASE;
+			increment = -1;
+			break;
+		
+		case RC_VOL_UP:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro %= 3;
+			sub_parametro = FREQ;
+			increment = 1;
+			break;
+			
+		case RC_VOL_DN:
+			if (pantalla.isBusy()) {break;}
+			retardo = true;
+			parametro %= 3;
+			sub_parametro = FREQ;
+			increment = -1;
+			break;
+			
+	}
+	
+	if (increment != 0) {
+		float value = increment * inc;
+		switch (modo) {
+			case OSCILADORES1:
+				parametro += TRASL_X;
+				texto1 = "T.";
+				break;
+			case OSCILADORES2:
+				parametro += CENTRO_X;
+				texto1 = "C.";
+				if (sub_parametro == AMP) {value *= 2;}
+				break;
+			case OSCILADORES3:
+				parametro = 2-parametro;   // esto invierte los ejes X y Z 
+				parametro += ROT_X;
+				texto1 = "R.";
+				if (sub_parametro == AMP) {value *= .1;}
+				break;
+		}
+		switch (parametro % 3) {
+			case TRASL_X: texto1 += "X."; break;
+			case TRASL_Y: texto1 += "Y."; break;
+			case TRASL_Z: texto1 += "Z."; break;
+		}
+		OSCILATOR osc = mov.get_oscilador (parametro);
+		switch (sub_parametro) {
+			case AMP: 
+				value += osc.amp;
+				texto1 += ("amp " + float2string (value)); 
+				mov.set_amp (parametro, value);
+				break;
+			case FREQ: 
+				value /= 5;
+				value += osc.freq;
+				texto1 += ("frq " + float2string (value)); 
+				mov.set_freq (parametro, value);
+				break;
+			case PHASE: 
+				value /= 5;
+				value += osc.phase;
+				texto1 += ("phs " + float2string (value)); 
+				mov.set_phase (parametro, value);
+				break;
+			case BROWN: 
+				bool brown = sign2bin (increment);
+				texto1 += ("brw " + String (brown, BIN)); 
+				mov.set_brown (parametro, brown);
+				break;
+		}
+	}
+
+}
+
 String RemoteControl::float2string (float number) {
 	int parte_entera = number;
-	int parte_decimal = abs (number*10 - parte_entera*10);
-	return String (parte_entera, DEC) + "," + String (parte_decimal, DEC);
+	int decimos = number*10 - parte_entera*10;
+	int centesimos = number*100 - parte_entera*100 - decimos*10;
+	String signo;
+	if (number<0 && number>-1) {signo = "-";}
+	return signo + String (parte_entera, DEC) + "," + String (abs(decimos), DEC) + String (abs(centesimos), DEC);
 }
 
 void RemoteControl::displayText () {

@@ -16,11 +16,14 @@ IMPROVEMENTS realizados:
 - "cabeza" es ahora una clase, y se creó otra clase "remote control"
 - se implementaron (parcialmente) las "páginas" en el menu del RC
 - se implementó el modo "editar centro"
+- y también los 3 modos de oscilaciones, aunque con algunas carencias
 
 
 1) TO DO INMEDIATO
 
-- ojo con la altura de los pasitos, que salta alguna fruta de vez en cuando
+- revisar y refinar todo lo que es la interfaz usuario
+- hacer "macros" de color
+- ojo con la altura de los pasitos, que salta alguna fruta de vez en cuando --> se está arreglando
 - hacer un modo 'test_sensor'
 - hacer un "test battery" -- que los motores no arranquen frenados 
 - hacer "macros" para la 'oscilador' (por ejemplo: círculos, etc.)
@@ -46,17 +49,21 @@ IMPROVEMENTS realizados:
         // modo para mover la cabeza
 	// uno de los botones de arriba, que vuelva realmente al origen (al punto de partida)
 	// implementar un timeout para que vuelva lentamente a la posición
-        // modo para oscilaciones (integrado en los modos de traslación, rotación y centro
-           recuerda el parámetro, ya sabe la amplitud, vol y ch son frecuencia y fase )
-           (esto está mal, pero sirve de referencia) 
 	// 2 colores en los mensajes (implementar en la display)
 	// "auto" en los parámetros que lo tienen
         // ingresar valores con el teclado numérico
 	// mayor incremento??
+	// tecla de reset y tecla de random en modo osciladores
+	// tecla para volver al origen en modos de rotaciones y traslaciones, sin saltar
+	// lo mismo, pero que lo haga con damped oscilations (la frecuencia de las oscilaciones seria 
+           la que ya está seteada, y hay que ver qué pasa con la fase)
+        // el modo oscilaciones falta un botón stop
+        // y en todos los modos, una manera de incrementar y decrementar rápida
 - comunicación bluetooth, acelerómetro remoto
 - el salto (con la bezier)
 - conductas: que se mantenga siempre a una distancia fija del objeto, autónomo,
              que siga a un objeto que se mueve, etc.
+             conducta autónoma básica, avoid obstacles
 
 2) IDEAS 
 
@@ -77,6 +84,8 @@ IMPROVEMENTS realizados:
 - idea: agendar movimientos relativos durante la caminata, a ver qué pasa
 - movimiento individual de cada pata, cuando la agarran
 - que arranque a caminar cuando lo empujan / en la dirección que lo empujan
+- o que se incline y luego vuelva a la posición como un resorte, e incluso que quede oscilando
+- esto introduce un nuevo concepto: "damped" oscilations
 - que detecte choques de la misma manera
 - que aprete cosas en el piso, botones, luces, ruidos, etc
 
