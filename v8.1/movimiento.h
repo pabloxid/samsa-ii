@@ -32,11 +32,11 @@
 
 #define MAX_FASES         6        // máximo de fases de una secuencia de pasos en la caminata
 #define TPS               14       // ticks-per-segment, constante para las curvas bezier
-#define CIRCLE_RES        50       // número de subdivisiones de la circunferencia, para movimientos oscilatorios
+#define CIRCLE_RES        24       // número de subdivisiones de la circunferencia, para movimientos oscilatorios
 
 typedef struct {float amp; float freq; float phase; bool brown;} OSCILATOR;
 
-float const angle_step = 2*PI/CIRCLE_RES;
+float const angle_step = 2*PI/CIRCLE_RES;         // como su nombre lo dice
 
 class Movimiento {
 
@@ -66,10 +66,17 @@ class Movimiento {
 		// movimientos del tronco
 		void translation (COORD3D vector, int duracion, byte nsegmentos=0);
 		void rotation (COORD3D centro, float angulox, float anguloy, float anguloz, int duracion, byte nsegmentos=0);
-		void set_oscilador (byte parametro, float amplitud, float frecuencia, float fase, bool brown); 
-		void oscilador (float frecuencia_fund, int duracion); 
 		
-		// rutina universal para que camine la cosa
+		// osciladores
+		void set_oscilador (byte parametro, float amplitud, float frecuencia, float fase, bool brown); 
+		OSCILATOR get_oscilador (byte parametro); 
+		void set_amp (byte parametro, float value);
+		void set_freq (byte parametro, float value);
+		void set_phase (byte parametro, float value);
+		void set_brown (byte parametro, bool value);
+		void oscilador (float frecuencia_fund, int duracion);
+		
+		// runtime component
 		void update (unsigned long milis);
 		
 		/* monitores (para generar eventos o controlar cosas con la caminata)
@@ -116,7 +123,6 @@ class Movimiento {
 			float param_tronco [9];                             // matriz de 9 parámetros para el movimiento del tronco
 											
 	 // variables de control de la clase
-	 // bool init;
 	 bool enable;
 	 byte mode;
 	 unsigned int tick;                    // contador principal
@@ -135,5 +141,6 @@ extern Movimiento mov;
 #define TRONCO          1
 
 enum {TRASL_X, TRASL_Y, TRASL_Z, CENTRO_X, CENTRO_Y, CENTRO_Z, ROT_X, ROT_Y, ROT_Z};
+enum {AMP, FREQ, PHASE, BROWN};
 
 #endif

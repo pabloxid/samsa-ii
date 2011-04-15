@@ -36,7 +36,7 @@ Movimiento mov;              // preinstanciado
 Movimiento::Movimiento () {                 // constructor
 	set_pos_ref (DEFAULT_POSITION);                            // posición de referencia (por las dudas que se olviden de setear)
 	for (byte i=0; i<9; i++) {
-	  oscilator[i] = (OSCILATOR) {0, 0, 0, 0};                  // inicializa los osciladores
+	  oscilator[i] = (OSCILATOR) {0, 0, 0, false};                  // inicializa los osciladores
 	  param_tronco[i] = 0;
 	}
 	// inicializa los monitores a NULL
@@ -135,7 +135,8 @@ void Movimiento::caminata (float velocidad, float desplazamiento, bool curva, CO
   /* a esta altura podemos hacer la siguiente operación comprobatoria: 
 	    periodo_sub_ciclo = (largo_pasos/modulo_vector + duracion_pasos)*agrupamiento/fases */
   byte nsegmentos =  nseg (duracion_pasos, escala, largo_pasos);
-  float altura_pasito = 8.5 + 2*sqrt(largo_pasos);               // tendría que estar en función no sólo del largo sino de la duración del paso 
+  // fórmula para la altura del punto manejador de la curva bezier
+  float altura_pasito = 6.3 + 26*(8.5 + 2*sqrt(largo_pasos))/(duracion_pasos*escala);      // ajustar esto
   bool compensate = true;
 	// hasta acá lo que es común a traslación y rotación
 
@@ -159,6 +160,7 @@ void Movimiento::caminata (float velocidad, float desplazamiento, bool curva, CO
   caminata (vector, rotacion, ticks, secuencia, fases, agrupamiento, escala, periodo_sub_ciclo, periodo_pasos, duracion_pasos, altura_pasito, nsegmentos, compensate);
 }
 
+
 ///////////////////////////////////////// ROTACIONES Y TRASLACIONES /////////////////////////////////////////
 
 // traslación del tronco
@@ -171,7 +173,9 @@ void Movimiento::rotation (COORD3D centro, float angulox, float anguloy, float a
 	tronco (pos_des, (COORD3D){0,0,0}, centro, angulox, anguloy, anguloz, duracion, nsegmentos);
 }
 
-// rotaciones y traslaciones del tronco
+// rotaciones y traslaciones del tronco 
+// las dos rutinas anteriores mueven desde la posición actual, 
+// en cambio esta mueve desde la posición de referencia que le pasen
 void Movimiento::tronco (COORD3D *pos_ref, COORD3D traslacion, COORD3D centro, float angulox, float anguloy, float anguloz, int duracion, byte nsegmentos) {
   
   if (nsegmentos == 0) {nsegmentos = nseg (duracion);}
@@ -203,10 +207,31 @@ void Movimiento::tronco (COORD3D *pos_ref, COORD3D traslacion, COORD3D centro, f
   }
 }
 
+
 ///////////////////////////////////////// OSCILADORES /////////////////////////////////////////
 
 void Movimiento::set_oscilador (byte parametro, float amplitud, float frecuencia, float fase, bool brown) {
 	oscilator [parametro] = (OSCILATOR) {amplitud, frecuencia, fase, brown};
+}
+
+OSCILATOR Movimiento::get_oscilador (byte parametro) {
+	return oscilator [parametro];
+}
+
+void Movimiento::set_amp (byte parametro, float value) {
+	oscilator [parametro].amp = value;
+}
+
+void Movimiento::set_freq (byte parametro, float value) {
+	oscilator [parametro].freq = value;
+}
+
+void Movimiento::set_phase (byte parametro, float value) {
+	oscilator [parametro].phase = value;
+}
+
+void Movimiento::set_brown (byte parametro, bool value) {
+	oscilator [parametro].brown = value;
 }
 
 void Movimiento::oscilador (float frecuencia_fund, int duracion) {
@@ -216,10 +241,10 @@ void Movimiento::oscilador (float frecuencia_fund, int duracion) {
 	nsegmentos_ = nseg (escala_);                     
 	ticks_ = duracion/escala_;
 	mode = TRONCO;
-	pausa = 1000*TICK*escala_;
-	tick = 0;
-	enable = true;
+	start ();
+	
 }
+
 
 ///////////////////////////////////////// MISC. & PRIVATE /////////////////////////////////////////
 
@@ -309,12 +334,14 @@ void Movimiento::caminata (COORD2D vector, float rotacion, unsigned int ticks, b
 	 	 
 	 // variables de control
 	if (!enable || mode!=CAMINATA) { 
-		caminata_init ();
+		mode = CAMINATA;
+		start ();
 	} else {
 		caminata_init2 ();
 	}
 	
 }
+
 
 ////////////////////////////////////////// RUNTIME ///////////////////////////////////////////
 
@@ -419,6 +446,8 @@ void Movimiento::update (unsigned long milis) {        // esto es un kilombo. So
 							}
 						}
 					}
+					// el centro de la oscilación es pos_ref_
+					// eso hace posible que la amplitud de la oscilación sea la desviación con respecto a pos_ref_
 					tronco (pos_ref_, (COORD3D){param_tronco[0],param_tronco[1],param_tronco[2]}, (COORD3D){param_tronco[3],param_tronco[4],param_tronco[5]}, param_tronco[6], param_tronco[7], param_tronco[8], escala_, nsegmentos_);
 					break;
 				}
@@ -430,6 +459,7 @@ void Movimiento::update (unsigned long milis) {        // esto es un kilombo. So
 	}
 	 
 }
+
 
 /********************************************************************************************
                           MODIFICADORES ON-THE-FLY (revisar esto)
@@ -462,10 +492,7 @@ void Movimiento::caminata_init () {           // inicialización del runtime de 
 		memcpy (pos_ref, pos_ref_, 6*sizeof(COORD3D));
 	}
 	
-	// common
-	pausa = 1000*TICK*escala_;
 	tick = periodo_pasos_*(index%agrupamiento_);  // esto equivale a inicializarlo en 0, tiene el efecto de que arranque dando un pasito
-	enable = true;
 	
 }
 
@@ -486,10 +513,20 @@ void Movimiento::caminata_init2 () {           // inicialización del runtime de
 	
 }
 
-
 // reinicia el movimiento
 void Movimiento::start () {
-	caminata_init ();
+	switch (mode) {
+		case CAMINATA:
+			caminata_init ();
+			break;
+		case TRONCO:
+			tick = 0;         // la tronco_init () se reduce a esto
+			break;
+	}
+	
+	// common
+	pausa = 1000*TICK*escala_;
+	enable = true;
 }
 
 // detiene cualquier movimiento

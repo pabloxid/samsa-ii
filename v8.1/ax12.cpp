@@ -446,6 +446,8 @@ void AX12::setMultiPosVel (byte targetlength, byte* targets, int* posvalues, int
  * Misc.
  ******************************************************************************/
 
+// solución para que bin2sign y sign2bin queden fuera de acá: distribuir junto con "util.cpp"
+ 
 bool sign2bin (int numero) {         // numero > 0 --> true; numero <= 0 --> false
   return (numero > 0);
 }
