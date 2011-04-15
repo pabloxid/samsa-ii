@@ -57,7 +57,6 @@ IMPROVEMENTS realizados:
 	// tecla para volver al origen en modos de rotaciones y traslaciones, sin saltar
 	// lo mismo, pero que lo haga con damped oscilations (la frecuencia de las oscilaciones seria 
            la que ya está seteada, y hay que ver qué pasa con la fase)
-        // el modo oscilaciones falta un botón stop
         // y en todos los modos, una manera de incrementar y decrementar rápida
 - comunicación bluetooth, acelerómetro remoto
 - el salto (con la bezier)
