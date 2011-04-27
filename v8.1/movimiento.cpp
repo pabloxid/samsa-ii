@@ -69,7 +69,7 @@ void Movimiento::caminata (float velocidad, float desplazamiento, bool curva, CO
   if (largo_pasos == 0) {
 		// esta fórmula para calcular automáticamente el largo de los pasos, contempla la distancia entre las patas
 		// pero igual da cualquier fruta, hay que corregirla
-		largo_pasos = sigmoide (velocidad/7) * .335 * distancia (suma (xyz2xz(pos_ref_[0]), getOffset (0)), suma (xyz2xz(pos_ref_[2]), getOffset (2)));
+		largo_pasos = sigmoide (velocidad/7) * .335 * distancia (suma (xyz2xz(pos_ref_[0]), getOffset (0)), suma (xyz2xz(pos_ref_[2]), getOffset (2))); 
   }
 	
   // estos seteos hay que ajustarlos lo mejor posible
@@ -136,7 +136,8 @@ void Movimiento::caminata (float velocidad, float desplazamiento, bool curva, CO
 	    periodo_sub_ciclo = (largo_pasos/modulo_vector + duracion_pasos)*agrupamiento/fases */
   byte nsegmentos =  nseg (duracion_pasos, escala, largo_pasos);
   // fórmula para la altura del punto manejador de la curva bezier
-  float altura_pasito = 6.3 + 26*(8.5 + 2*sqrt(largo_pasos))/(duracion_pasos*escala);      // ajustar esto
+  // contempla el largo y la duración de los pasos, pero igual da fruta
+  float altura_pasito = 6.7 + 25*(8.4 + 2.6*sqrt(largo_pasos))/(duracion_pasos*escala);      // ajustar esto es casi imposible
   bool compensate = true;
 	// hasta acá lo que es común a traslación y rotación
 

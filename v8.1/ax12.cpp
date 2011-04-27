@@ -47,17 +47,17 @@ void AX12::setTX () {
 
 void AX12::setRX () {
 #if defined (__AVR_ATmega168__) || defined (__AVR_ATmega328P__)
-    bitClear(TIMSK0, TOIE0);   // deshabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
+    //bitClear(TIMSK0, TOIE0);   // deshabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
     bitClear(UCSR0B, TXEN0);   // deshabilita la trasmisión
     bitSet(UCSR0B, RXEN0);     // habilita la recepción
     bitSet(UCSR0B, RXCIE0);    // habilita la interrupción de recepción
 #elif defined (__AVR_ATmega1280__) || defined (__AVR_ATmega128__) || defined (__AVR_ATmega2560__)
-    bitClear(TIMSK0, TOIE0);   // deshabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
+    //bitClear(TIMSK0, TOIE0);   // deshabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
     bitClear(UCSR1B, TXEN1);   // deshabilita la trasmisión
     bitSet(UCSR1B, RXEN1);     // habilita la recepción
     bitSet(UCSR1B, RXCIE1);    // habilita la interrupción de recepción
 #elif defined (__AVR_ATmega8__)
-    bitClear(TIMSK0, TOIE0); // deshabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
+    //bitClear(TIMSK0, TOIE0); // deshabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
     bitClear(UCSRB, TXEN);   // deshabilita la trasmisión
     bitSet(UCSRB, RXEN);     // habilita la recepción
     bitSet(UCSRB, RXCIE);    // habilita la interrupción de recepción 
@@ -70,17 +70,17 @@ void AX12::setNone () {
     bitClear(UCSR0B, RXCIE0);    // deshabilita la interrupción de recepción
     bitClear(UCSR0B, RXEN0);     // deshabilila la recepción
     bitClear(UCSR0B, TXEN0);     // deshabilita la trasmisión
-    bitSet(TIMSK0, TOIE0);          // rehabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
+    //bitSet(TIMSK0, TOIE0);          // rehabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
 #elif defined (__AVR_ATmega1280__) || defined (__AVR_ATmega128__) || defined (__AVR_ATmega2560__)
     bitClear(UCSR1B, RXCIE1);    // deshabilita la interrupción de recepción
     bitClear(UCSR1B, RXEN1);     // deshabilila la recepción
     bitClear(UCSR1B, TXEN1);     // deshabilita la trasmisión
-    bitSet(TIMSK0, TOIE0);          // rehabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
+    //bitSet(TIMSK0, TOIE0);          // rehabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
 #elif defined (__AVR_ATmega8__)
     bitClear(UCSRB, RXCIE);    // deshabilita la interrupción de recepción
     bitClear(UCSRB, RXEN);     // deshabilila la recepción
     bitClear(UCSRB, TXEN);     // deshabilita la trasmisión 
-    bitSet(TIMSK0, TOIE0);        // rehabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
+    //bitSet(TIMSK0, TOIE0);        // rehabilita la interrupción del timer0 (nota: esto es sólo para entornos Arduino)
 #endif    
 }
 
@@ -310,7 +310,7 @@ int AX12::writeData (byte start, byte length, byte* values, bool isReg) {
       sendPacket (id, length+1, WRITE_DATA, data);
     }
     int error = returnData (RETURN_ALL).error;
-    if (start < 23) {delay (5);}                   // si la operación de escritura es en la EEPROM, este delay previene el embotellamiento
+    if (start < 23) {delayMicroseconds (5000);}       // si la operación de escritura es en la EEPROM, este delay previene el embotellamiento
                                                    // (las operaciones en la EEPROM no suelen ser real-time)
     return error;
 }

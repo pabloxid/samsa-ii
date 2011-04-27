@@ -57,7 +57,7 @@ RemoteControl::RemoteControl () {
 void RemoteControl::procesar_comando (byte comando) {
 	
 	// acá se procesan las teclas generales, o que tienen una función única
-	// las otras son procesadas por la rutina específica del modo
+	// las otras son procesadas por la rutina específica de cada modo
 	
 	texto1 = "def";
 	
@@ -153,19 +153,19 @@ void RemoteControl::procesar_comando (byte comando) {
 						break;
 					case RC_GAMEZONE: 
 						if (isMoving || pantalla.isBusy() || modo==REMOTE_OFF) {break;}
-						color1 = RGB(1, 3, 3);
+						color1 = RGB(2, 1, 2);
 						texto1 = "osc. traslacion";
 						modo = OSCILADORES1;
 						break;
 					case RC_APPLICATION: 
 						if (isMoving || pantalla.isBusy() || modo==REMOTE_OFF) {break;}
-						color1 = RGB(1, 3, 3);
+						color1 = RGB(1, 0, 3);
 						texto1 = "osc. rotacion";
 						modo = OSCILADORES3;
 						break;
 					case RC_TV+100: 
 						if (isMoving || pantalla.isBusy() || modo==REMOTE_OFF) {break;}
-						color1 = RGB(1, 3, 3);
+						color1 = RGB(2, 2, 0);
 						texto1 = "osc. centro";
 						modo = OSCILADORES2;
 						break;

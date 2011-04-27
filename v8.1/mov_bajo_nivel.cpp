@@ -32,13 +32,14 @@
 #include "Print.h"
 
 const byte ids[6][3] = {{0,1,2}, {4,5,6}, {8,9,10}, {12,13,14}, {16,17,18}, {20,21,22}};      // IDs de los motores
-// const char offset[3] = {0, 0, 0};                                                              // offsets angulares de cada anillo (no se usó al final)
+// const char offset[3] = {0, 0, 0};                                                            // offsets angulares de cada anillo (no se usó al final)
 
 AX12 motors [6][3];                 
 AX12 broadcast = AX12();
-int ang_des [6][3];                                                         // ángulo destino de cada motor (ojo puede necesitar 'volatile')
-int dur_des [6][3];                                                         // duración de cada pata  (ojo puede necesitar 'volatile')
-COORD3D pos_des [6];                                                        // posición destino de cada pata
+int ang_des [6][3];                                          // ángulo destino de cada motor (ojo puede necesitar 'volatile')
+int dur_des [6][3];                                          // duración de cada pata  (ojo puede necesitar 'volatile')
+COORD3D pos_des [6];                                         // posición destino de cada pata  
+char load [6][3];                                            // carga de los motores
 
 void servo (byte pata, byte anillo, int angulo, int duracion) {                 
   ang_des [pata][anillo] = angulo;    
@@ -108,40 +109,58 @@ void set_coord (byte patas, COORD3D P, int duracion, bool absolute) {
 }
 
 byte motor_update () {                                       // actualiza los servos
-  static int ang_act [6][3];                                  // ángulo actual de los 18 servos
-  byte targetlength = 0;
-  byte targets [18]; int posvalues[18]; int velvalues[18];
-  for (byte pata=0; pata<6; pata++) {
-    for (byte anillo=0; anillo<3; anillo++) {
-      int diff = ang_act[pata][anillo] - ang_des[pata][anillo];
-      if (diff != 0) {
-        targets [targetlength] = ids [pata][anillo];
-        // posvalues [targetlength] = ANG_ZERO + bin2sign(pata>2) * (ang_des[pata][anillo] + offset[anillo]);  // versión con offset 
-        posvalues [targetlength] = ANG_ZERO + bin2sign(pata>2) * ang_des[pata][anillo];                  // acá no habría que poner un constrain??
-        velvalues [targetlength] = constrain(vel_scale*abs(diff)/dur_des [pata][anillo], 1, 1023);                
-        // podemos mandar los mensajes individuales (para minimizar errores)...
-        // motors[pata][anillo].setPosVel (posvalues [targetlength], velvalues [targetlength]);
-        // (en ese caso no se justifica que haya una "update"; lo ideal es usar el gran mensajón)
-        targetlength ++;
-        ang_act[pata][anillo] = ang_des[pata][anillo];
-      }
-    }
-  }
-  // .. o podemos mandar el gran mensajón:
-  AX12::setMultiPosVel (targetlength, targets, posvalues, velvalues);     // gran mensajón  
-  // .. otra alternativa es separarlo en 2 mensajotes: 
-  // AX12::setMultiVel (targetlength, targets, velvalues);
-  // AX12::setMultiPos (targetlength, targets, posvalues); 
-  return targetlength;
+	static int ang_act [6][3];                                  // ángulo actual de los 18 servos
+	byte targetlength = 0;
+	byte targets [18]; int posvalues[18]; int velvalues[18];
+	for (byte pata=0; pata<6; pata++) {
+		for (byte anillo=0; anillo<3; anillo++) {
+			int diff = ang_act[pata][anillo] - ang_des[pata][anillo];
+			if (diff != 0) {
+				targets [targetlength] = ids [pata][anillo];
+				// posvalues [targetlength] = ANG_ZERO + bin2sign(pata>2) * (ang_des[pata][anillo] + offset[anillo]);  // versión con offset 
+				posvalues [targetlength] = ANG_ZERO + bin2sign(pata>2) * ang_des[pata][anillo];                  // acá no habría que poner un constrain??
+				velvalues [targetlength] = constrain(vel_scale*abs(diff)/dur_des [pata][anillo], 1, 1023);                
+				// podemos mandar los mensajes individuales (para minimizar errores)...
+				// motors[pata][anillo].setPosVel (posvalues [targetlength], velvalues [targetlength]);
+				// (en ese caso no se justifica que haya una "update"; lo ideal es usar el gran mensajón)
+				targetlength ++;
+				ang_act[pata][anillo] = ang_des[pata][anillo];
+			}
+		}
+	}
+	if (targetlength > 0) {                               // por las dudas
+	  // .. o podemos mandar el gran mensajón:
+		AX12::setMultiPosVel (targetlength, targets, posvalues, velvalues);     // gran mensajón  
+		// .. otra alternativa es separarlo en 2 mensajotes: 
+		// AX12::setMultiVel (targetlength, targets, velvalues);
+		// AX12::setMultiPos (targetlength, targets, posvalues);
+	} 
+	return targetlength;
+}
+
+void poll_load () {               /* mide la carga en cada motor. Lo hace cuando los motores no están trabajando, y a un 
+                                        ritmo de 14 veces por segundo, lo cual es acorde con las características del motor */
+                                                             
+	static byte motor_index = 0;                        // motor al que se le mide el load
+	byte pata = motor_index / 3;
+	byte anillo = motor_index % 3;
+	all_timers_off ();
+	sei();                   // habilita las "nested interrupts"...
+	// ...lo que hace posible la lectura del motor desde dentro de la ISR
+	load [pata][anillo] = bin2sign(motor_index>8)*motors[pata][anillo].getLoad()/8;  // el valor es de 7 bits en realidad, por eso / 8    
+	cli(); 
+	all_timers_off (RESTORE);
+	motor_index ++;
+	motor_index %= 18;
 }
 
 COORD3D get_coord (byte pata) {
   int angulos [3];
-  disable_ovf2();
+  all_timers_off ();
   for (byte i=0; i<3; i++) {
     angulos[i] = (motors[pata][i].getPos() - ANG_ZERO) * bin2sign(pata>2);       // los motores no tienen la propiedad "inverse"
   } 
-  enable_ovf2();
+  all_timers_off (RESTORE);
   COORD3D P = xyz (angulos);
   return (COORD3D) {P.x*bin2sign(pata>2), P.y, P.z};   
 }
@@ -200,26 +219,34 @@ int motor_init (byte pata, byte anillo) {
     else if (anillo==2) {motors[pata][anillo].writeInfo (CCW_ANGLE_LIMIT, 698);}
   }
   
-  delay (40);                            // este delay es necesario, no sé por qué
-  return motors[pata][anillo].ping();         // testea a ver si el motor responde a un ping
+	delayMicroseconds (10111);             // este delay es necesario, no sé por qué 
+	delayMicroseconds (10111);             // hay que hacerlo con usec, porque no hay interrupciones aun
+	delayMicroseconds (10111); 
+	delayMicroseconds (10111);
+	
+	return motors[pata][anillo].ping();      // testea a ver si el motor responde a un ping
 
 }
 
 void motor_setup ()   {                
   AX12::init (BAUDRATE);                             // inicializa la biblioteca AX12 al baudrate indicado
   for (byte pata=0; pata<6; pata++) {
+    all_timers_off ();
     for (byte anillo=0; anillo<3; anillo++) {
-      motors [pata][anillo] = AX12(ids[pata][anillo]);
+      motors [pata][anillo] = AX12(ids[pata][anillo]);   // asigna los IDs
       int error = motor_init (pata, anillo);
       if (error) {
-        pantalla.setColor (DEGRADE_H, RGB(3, 0, 1), RGB(3, 2, 0));        
-        String msg = "error pata " + String (pata, DEC) + ", motor " + String (anillo, DEC);
-        for (;;) {pantalla.scrollText (msg.toCharArray(), 70); delay (6900);}
+        // en caso de error en algun motor
+					enable_ovf0();                                              // esto habilita el delay() y el scrollText() 
+					pantalla.setColor (DEGRADE_H, RGB(3, 0, 1), RGB(3, 2, 0));        
+					String msg = "error pata " + String (pata, DEC) + ", motor " + String (anillo, DEC);
+        for (;;) {pantalla.scrollText (msg.toCharArray(), 70); delay (6900);}                // loop indefinido
       } else {
-        motors[pata][anillo].torqueOn;                                  // habilita el torque
-        pantalla.setPixel(anillo+3,6-pata);                             // motor testeado y configurado OK
+        motors[pata][anillo].torqueOn;                                     // habilita el torque
+        pantalla.setPixel(anillo+3,6-pata);                                 // motor testeado y configurado OK
       }
     }
+    all_timers_off (RESTORE);
     pos_des [pata] = get_coord (pata);         // setea la "posición actual" a la posición real 
   }
 }

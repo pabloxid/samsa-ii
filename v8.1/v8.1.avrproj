@@ -35,7 +35,7 @@
   <BurnFuseBox>-U lfuse:w:0xff:m -U hfuse:w:0xda:m -U efuse:w:0xf5:m</BurnFuseBox>
   <BurnBaud>57600</BurnBaud>
   <BurnAutoReset>true</BurnAutoReset>
-  <LastFile>movimiento.cpp</LastFile>
+  <LastFile>display.cpp</LastFile>
   <FileList>
     <File>
       <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.1\ax12.cpp'-->
@@ -43,7 +43,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>17515</CursorPos>
+      <CursorPos>12611</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -87,8 +87,8 @@
       <RelPath>display.cpp</RelPath>
       <ToCompile>true</ToCompile>
       <Options />
-      <WasOpen>false</WasOpen>
-      <CursorPos>938</CursorPos>
+      <WasOpen>true</WasOpen>
+      <CursorPos>7790</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -96,8 +96,8 @@
       <RelPath>display.h</RelPath>
       <ToCompile>false</ToCompile>
       <Options />
-      <WasOpen>false</WasOpen>
-      <CursorPos>940</CursorPos>
+      <WasOpen>true</WasOpen>
+      <CursorPos>3416</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -124,7 +124,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>939</CursorPos>
+      <CursorPos>6741</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -133,7 +133,7 @@
       <ToCompile>false</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>941</CursorPos>
+      <CursorPos>1316</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -160,7 +160,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>true</WasOpen>
-      <CursorPos>1755</CursorPos>
+      <CursorPos>1759</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -169,7 +169,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>945</CursorPos>
+      <CursorPos>11600</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -178,7 +178,7 @@
       <ToCompile>false</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>947</CursorPos>
+      <CursorPos>1492</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -186,8 +186,8 @@
       <RelPath>movimiento.cpp</RelPath>
       <ToCompile>true</ToCompile>
       <Options />
-      <WasOpen>true</WasOpen>
-      <CursorPos>6613</CursorPos>
+      <WasOpen>false</WasOpen>
+      <CursorPos>5397</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -195,7 +195,7 @@
       <RelPath>movimiento.h</RelPath>
       <ToCompile>false</ToCompile>
       <Options />
-      <WasOpen>true</WasOpen>
+      <WasOpen>false</WasOpen>
       <CursorPos>1325</CursorPos>
       <Bookmarks />
     </File>
@@ -268,7 +268,7 @@
       <ToCompile>true</ToCompile>
       <Options />
       <WasOpen>false</WasOpen>
-      <CursorPos>5128</CursorPos>
+      <CursorPos>2095</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -384,8 +384,8 @@
       <RelPath>remote_control.cpp</RelPath>
       <ToCompile>true</ToCompile>
       <Options />
-      <WasOpen>true</WasOpen>
-      <CursorPos>20174</CursorPos>
+      <WasOpen>false</WasOpen>
+      <CursorPos>5394</CursorPos>
       <Bookmarks />
     </File>
     <File>
@@ -393,7 +393,7 @@
       <RelPath>remote_control.h</RelPath>
       <ToCompile>false</ToCompile>
       <Options />
-      <WasOpen>true</WasOpen>
+      <WasOpen>false</WasOpen>
       <CursorPos>2531</CursorPos>
       <Bookmarks />
     </File>

@@ -17,24 +17,34 @@ IMPROVEMENTS realizados:
 - se implementaron (parcialmente) las "páginas" en el menu del RC
 - se implementó el modo "editar centro"
 - y también los 3 modos de oscilaciones, aunque con algunas carencias
+- ciertas correcciones en el cálculo de altura_pasitos
+- primer esbozo de poll_load
 
 
 1) TO DO INMEDIATO
 
+- con el poll load, se puede detectar:
+  - empujes en varias direcciones
+  - levantado de pata individual
+  - consumo total
+- hay un bug: al cambiar de dirección sobre la marcha, habiendo previamente "acelerado"
+  con la escala, el robot se hunde misteriosamente
 - revisar y refinar todo lo que es la interfaz usuario
 - hacer "macros" de color
 - ojo con la altura de los pasitos, que salta alguna fruta de vez en cuando --> se está arreglando
 - hacer un modo 'test_sensor'
-- hacer un "test battery" -- que los motores no arranquen frenados 
+  que testee las 5 cosas de la cabeza, el sensor de cuerdita y el de empuje
+- hacer un "test battery" 
 - hacer "macros" para la 'oscilador' (por ejemplo: círculos, etc.)
 - extender la display con más cosas dinámicas
   - triángulos
   - animación con líneas encadenadas (nibbles, de longitud variable y multicolores)
+  - color scroll, plasma, línea que se mueve, objeto que se mueve, caracter que se mueve
   - scroll, rotaciones, etc. en versión animada
   - cambio de modo de color y de color mismo, automáticos
   - la medidor, en versión animada (usar punteros a las variables de la caminata, o viceversa)
   - la display tendría una función "monitorear x" y se le pasa un puntero a algo
-  - por ejemplo, un "piano roll" de patas apoyadas, el "gait monitor"
+  - por ejemplo, un "piano roll" de patas apoyadas, el "gait monitor", el load monitor
   - mostrar textos en más de 1 color
 - rutinas de la cabeza para seguir objetos (ver robotito)
 - rutinas de la cabeza: movimientos (ver robotito; implementar con timer igual que el resto)
@@ -48,16 +58,17 @@ IMPROVEMENTS realizados:
                 - consumo motores      
         // modo para mover la cabeza
 	// uno de los botones de arriba, que vuelva realmente al origen (al punto de partida)
-	// implementar un timeout para que vuelva lentamente a la posición
+	// implementar un timeout para que vuelva lentamente a la posición 
+           (o para que pase al modo autónomo)
 	// 2 colores en los mensajes (implementar en la display)
 	// "auto" en los parámetros que lo tienen
         // ingresar valores con el teclado numérico
-	// mayor incremento??
+	// y en todos los modos, una manera de incrementar y decrementar rápida!
+	// que la altura del pasito también se pueda ajustar, además de dejar en AUTO
 	// tecla de reset y tecla de random en modo osciladores
 	// tecla para volver al origen en modos de rotaciones y traslaciones, sin saltar
-	// lo mismo, pero que lo haga con damped oscilations (la frecuencia de las oscilaciones seria 
-           la que ya está seteada, y hay que ver qué pasa con la fase)
-        // y en todos los modos, una manera de incrementar y decrementar rápida
+	// lo mismo, pero que lo haga con damped oscilations (la frecuencia de las
+	   oscilaciones seria a que ya está seteada, y hay que ver qué pasa con la fase)
 - comunicación bluetooth, acelerómetro remoto
 - el salto (con la bezier)
 - conductas: que se mantenga siempre a una distancia fija del objeto, autónomo,
@@ -71,22 +82,24 @@ IMPROVEMENTS realizados:
 - módulo de audio con ANN igual que SAMSA I (en arduino mini)
 - módulo para generar audio, con chip vs (y probar de capturar audio también)
 - baile: robotito + fractal rhythm + linear rhythm
-- baile sincronizado con robotito (fácil, usando el sensor IR)
+- baile sincronizado con robotito (fácil, usando el receptor IR. Hay que sincronizarse al beat)
 - sensores en las patas. 
 - GRAN IDEA: hackear los motores del último anillo para conectar los sensores en ellos
 - polling de 'load' de los motores, y procesar esta información
 - idea: un touchscreen arriba del display
 - la chotada con las patas de adelante es casi obligatoria
 - subir escaleras??
-- acelerómetro en el propio robot
+- acelerómetro en el propio robot, conducta: que el cuerpo quede siempre horizontal
 - manejar los leds de los ax12
 - idea: agendar movimientos relativos durante la caminata, a ver qué pasa
 - movimiento individual de cada pata, cuando la agarran
 - que arranque a caminar cuando lo empujan / en la dirección que lo empujan
 - o que se incline y luego vuelva a la posición como un resorte, e incluso que quede oscilando
 - esto introduce un nuevo concepto: "damped" oscilations
+- las oscilaciones deberian tener envolvente
 - que detecte choques de la misma manera
 - que aprete cosas en el piso, botones, luces, ruidos, etc
+- que visualice, con movimientos y/o con el display, música
 
 3) MEJORAS
 
@@ -103,6 +116,7 @@ IMPROVEMENTS realizados:
   - controlar el torque de los motores, para ahorrar energía y vida útil
   - modulación de caminatas (que haga otros movimientos mientras camina)
   - secuencias de más de 6 fases, en especial irregulares (4, 8, 5, 7, 9, 10, 11, etc)
+- calculating which leg is most away from its optimal position. So no fixed sequences are used.
 
 4) CON RESPECTO AL CÓDIGO MISMO
 
@@ -112,7 +126,8 @@ IMPROVEMENTS realizados:
 - poner todo lo que es hardware en hardware, lo que es util en util, etc.
 - y lo que no se usa, dejarlo en un archivo todo comentado
 - re-escribir todo lo del control remoto IR
-- también en la clase "movimiento" hay mucho que re-escribir
+- también en la clase "movimiento" hay mucho que re-escribir, hay cosas que se repiten
+- ¿implementar las funciones trigonométricas con tablas??
 
 
 

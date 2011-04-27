@@ -29,11 +29,11 @@
 
 #include "pins_arduino.h"
 
-void setTimers ();                    // esto configura el timer 2, pero en el futuro será el 0 también
-void ADCconfig ();
+void setTimers ();                    // configura los timers
+void ADCconfig ();                    // configura el ADC
 void ADCInitConv (byte pin);
 int ADCReadConv ();
-void SPIconfig ();
+void SPIconfig ();                    // configura el SPI
 byte SPItransfer (byte _data);
 
 // importadas de wiring.h
@@ -48,6 +48,10 @@ void inline enable_ovf2() {TIMSK2 |= _BV(TOIE2);}                 // habilita el
 void inline disable_ovf2() {TIMSK2 &= ~_BV(TOIE2);}               // deshabilita el Overflow Interrupt (timer2)
 void inline enable_ovf0() {TIMSK0 |= _BV(TOIE0);}                   // habilita el Overflow Interrupt (timer0)
 void inline disable_ovf0() {TIMSK0 &= ~_BV(TOIE0);}                 // deshabilita el Overflow Interrupt (timer0)
+
+#define RESTORE true
+void all_timers_off (bool restore = false);
+
 
 // defines para las rutinas de temporización
 

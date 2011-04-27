@@ -31,6 +31,7 @@
 #include "display.h"
 #include "cabeza.h"
 #include "wiring.h"
+#include "mov_bajo_nivel.h"
 
 //==================================================================================================================//
 //                           inicialización de timers y recursos del microcontrolador                               //
@@ -42,8 +43,6 @@
 
 void setTimers () {               // setea el timer2 del Atmega1280 para generar una interrupción periódica
 	
-	sei();    // habilita las interrupciones (yo lo pondría al final)
-	
 	// on the ATmega168, timer 0 is also used for fast hardware pwm
 	// (using phase-correct PWM would mean that timer 0 overflowed half as often
 	// resulting in different millis() behavior on the ATmega8 and ATmega168)
@@ -54,9 +53,6 @@ void setTimers () {               // setea el timer2 del Atmega1280 para generar
 	// this combination is for the standard 168/328/1280/2560
 	sbi(TCCR0B, CS01);
 	sbi(TCCR0B, CS00);
-
-	// enable timer 0 overflow interrupt
-  enable_ovf0();
 
 	// timers 1 and 2 are used for phase-correct hardware pwm
 	// this is better for motors as it ensures an even waveform
@@ -72,11 +68,7 @@ void setTimers () {               // setea el timer2 del Atmega1280 para generar
 	sbi(TCCR1A, WGM10);
 
 	// timer 2
-	
-	/* First disable the timer overflow interrupt while we're configuring */  
-  disable_ovf2();   
-  
-  /* Configure timer2 in normal mode (pure counting, no PWM etc.) */  
+	/* Configure timer2 in normal mode (pure counting, no PWM etc.) */  
   TCCR2A &= ~((1<<WGM21) | (1<<WGM20));   
   TCCR2B &= ~(1<<WGM22);   
   
@@ -89,25 +81,19 @@ void setTimers () {               // setea el timer2 del Atmega1280 para generar
   /* Now configure the prescaler to CPU clock divided by 1024, lo cual nos da un ciclo de 16ms */  
   TCCR2B |= _BV(CS22) | _BV(CS21) | _BV(CS20);      
   
-  /* Finally load end enable the timer */  
-  enable_ovf2();   
-	
 	// timer 3
-
 	sbi(TCCR3B, CS31);		// set timer 3 prescale factor to 64
 	sbi(TCCR3B, CS30);
 	sbi(TCCR3A, WGM30);		// put timer 3 in 8-bit phase correct pwm mode
 
 	// timer 4
-
 	sbi(TCCR4B, CS41);		// set timer 4 prescale factor to 64
 	sbi(TCCR4B, CS40);
 	sbi(TCCR4A, WGM40);		// put timer 4 in 8-bit phase correct pwm mode
 
   // timer 5
-
   // lo que sigue es para setear el timer5 para generar PWM para los 2 servos de la cabeza
-  // fast PWM, 16 bits, prescaler CPU/8, TOP = 40000 (el resto de los seteos quedan como los hizo el core de Arduino)
+  // fast PWM, 16 bits, prescaler CPU/8, TOP = 40000 
   TCCR5A |= _BV(WGM51); TCCR5A &= ~_BV(WGM50);
   TCCR5B |= _BV(WGM52) | _BV(WGM53) | _BV(CS51);
   TCCR5B &= ~(_BV(CS50) | _BV(CS52));	
@@ -117,6 +103,10 @@ void setTimers () {               // setea el timer2 del Atmega1280 para generar
 	// here so they can be used as normal digital i/o; they will be
 	// reconnected in Serial.begin()
 	UCSR0B = 0;
+	
+	enable_ovf0();     // enable timer0 overflow interrupt (habilita el delay(), etc.)
+	enable_ovf2();     // enable timer2 overflow interrupt (habilita el movimiento)
+	sei();           // habilita las interrupciones globales
 	
 }  
 
@@ -182,6 +172,21 @@ byte SPItransfer (byte _data) {
 //                                   interrupt service routines & timers                                           //
 //=================================================================================================================//
 
+// esto apaga los 2 overflows, y luego los vuelve a su estado anterior
+// tanto al escribir como al leer en los AX12, conviene que los timers estén apagados
+void all_timers_off (bool restore) {
+	static byte timsk0, timsk2;
+	if (restore) {
+		TIMSK0 = timsk0;
+		TIMSK2 = timsk2;
+	} else {
+		timsk0 = TIMSK0;
+		timsk2 = TIMSK2;
+		disable_ovf0();
+		disable_ovf2();
+	}
+}
+		
 // variables para la delay(), etc.
 volatile unsigned long timer0_overflow_count = 0;
 volatile unsigned long timer0_millis = 0;
@@ -215,9 +220,10 @@ ISR (TIMER0_OVF_vect, ISR_BLOCK)
 }
 
 ISR (TIMER2_OVF_vect, ISR_BLOCK) {         
-  TCNT2 = overflow;                // cada vez que se produce un overflow, el timer arranca en este valor y cuenta hasta 255.
-  eventos.process ();              // se ejecuta cada TICK. Devuelve la cantidad de motores actualizados, dato que se podría usar
-  // etc., etc., etc.
+  TCNT2 = overflow;                  // cada vez que se produce un overflow, el timer arranca en este valor y cuenta hasta 255.
+  byte act = eventos.process ();       /* se ejecuta cada TICK. Devuelve la cantidad de motores actualizados, 
+	                                           dato que se puede usar para muchas cosas... */
+  if (act==0) {poll_load();}          // si los motores no están trabajando, aprovecha para medir la fuerza 
 }
 
 //=============================================================================================================================//

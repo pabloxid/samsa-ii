@@ -20,8 +20,8 @@
 */
 
 // main.cpp
-// version: 0.8
-// date: 7/2/2011
+// version: 0.8.1
+// date: 10/4/2011
 // authors: Pablo Gindel, Jorge Visca
 
 
@@ -39,18 +39,19 @@
 
 int main (void)
 {
-  setTimers();                /* configura los timers y arranca con las interrupciones periódicas.
+  setTimers();                /* configura los timers y arranca las interrupciones
 	                                   sustituye a la antigua init() de Arduino */
 																		 
-  SPIconfig ();                                          // inicializa el SPI para el display
-  pantalla.setColor (DEGRADE_H, RGB(1, 3, 0), RGB(1, 3, 3));     // setea el color para el display
-  motor_setup ();                                         // inicializa y testea los 18 motores AX12
-  ADCconfig ();                                          // configura el ADC     
-  randomSeed (analogRead(0));                               // esto se va a ir, porque no va a existir más analogRead()
-  kbza.posicion (PAN, 0); kbza.posicion (TILT, 400);            // posiciona la cabeza
-  pantalla.conway (60, 10);                                 // genera un efecto visual
-  delay (700);
-  pantalla.scrollText (" SAMSA II (c) 2010, P.Gindel & J.Visca ", 75);    // presentación estilo 'cutcsa'
+	SPIconfig ();                                          // inicializa el SPI para el display
+	pantalla.setColor (DEGRADE_H, RGB(1, 3, 0), RGB(1, 3, 3));     // setea el color para el display
+	motor_setup ();                                         // inicializa y testea los 18 motores AX12
+	ADCconfig ();                                          // configura el ADC     
+  
+	    randomSeed (analogRead(0));             // esto se va a ir, porque no va a existir más analogRead()
+  
+	kbza.posicion (PAN, 0); kbza.posicion (TILT, 400);                 // posiciona la cabeza
+	pantalla.conway (60, 10); delay (700);                           // genera un efecto visual
+	pantalla.scrollText (" SAMSA II (c) 2010, P.Gindel & J.Visca ", 75);    // presentación estilo 'cutcsa'
     
 	
 	// empieza zona de prueba
@@ -69,17 +70,24 @@ int main (void)
 	Serial.begin (115200);
 	
 	while (1) { 
-		
+		 static byte motor_index = 0;                        // motor al que se le mide el load
+	  byte pata = motor_index / 3;
+	  byte anillo = motor_index % 3;
 		//Serial.print (analogRead(6)); Serial.print ("   ");
 		//Serial.println (analogRead(7));
-	  			
-		delay (13);
+	  if (motor_index==0) {pantalla.cls(); delay (5);}
+		
+		pantalla.setColor (LISO, 32+load[pata][anillo],0);
+		delay (1);
+		pantalla.setPixel(anillo+3,6-pata);    // esto podría ser un tipo de visualizador, atenti
+		delay (10);
+		
+		motor_index ++;
+	 motor_index %= 18;
 	}
 	
 	// implementar un timeout para que vuelva lentamente a la posición
 	// boton para recobrar la posición
-	// modo para editar la posición
-	// modo para oscilaciones
 	// corregir los mensajes cuando se apreta muchas veces una tecla
 	// colores en los mensajes (probablemente en la display)
 	// "auto" en los parámetros que lo tienen
