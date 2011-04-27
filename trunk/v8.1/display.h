@@ -112,6 +112,8 @@ extern Display pantalla;
 #define DEGRADE_V    1
 #define DEGRADE_H    2
 
+// macros de color
+
 // modos de la 'medidor' (y de la biblioteca misma)
 enum {BARRA_H, BARRA_V, OSC_H, OSC_V, OSC_RADIAL, ESCALERA, ALEATORIO, TEXTO, SCROLL_TEXT, CONWAY, DISPLAY_OFF};	
 

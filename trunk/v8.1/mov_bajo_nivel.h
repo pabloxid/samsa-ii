@@ -35,9 +35,13 @@ typedef struct {int gama; int alfa; int beta;} ANGULOS;
 void set_coord (byte patas, COORD3D p, int duracion, bool absolute);
 byte motor_update ();
 void motor_setup ();
-COORD3D get_coord (byte pata); 
+COORD3D get_coord (byte pata);
+void poll_load ();
 
 // posición actual del robot (en realidad es la posición destino, desde el punto de vista del bajo nivel)
 extern COORD3D pos_des[6];
+
+// carga de los motores
+extern char load [6][3];
 
 #endif

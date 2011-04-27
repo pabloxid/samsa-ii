@@ -222,6 +222,7 @@ byte Display::xy2byte (byte x, byte y) {        // codifica las coordenadas como
   return y + 8*x;
 }
 
+// runtime
 void Display::update (unsigned long milis) {
 	
 	// variables de control
