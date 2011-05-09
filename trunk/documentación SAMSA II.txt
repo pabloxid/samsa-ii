@@ -133,20 +133,6 @@ IMPROVEMENTS realizados:
 
 18-3-11
 
-che, los motores dynamixel pueden medir torque? en ese caso esa puede 
-> ser la mejor solucion para calcular la direccion del tironeo... 
-> kinematica inversa sobre la posicion en donde llegarian las patas si 
-> les aplicaras el torque en cada motor. Es mas, ese es creo yo parte 
-> del "metodo" natural que usan los bichos (propiocepcion, y por 
-> supuesto sensacion tactil, pero no creo que con la sensacion sola 
-> "saquen" la direccion). 
-> Una version simplificada de eso, seria primero detectar que hay un 
-> tironeo (basado en eso del torque, pero sin necesidad de calcular la 
-> direccion), y despues hacer que el robot haga un pequeno microbaile 
-> (tipo mueva la cabeza o cuerpo en uno o varios circulos), para saber 
-> en donde se minimiza ese torque... 
-
-
 TO DO lateral:
 
 1) escribir artículo blog 
