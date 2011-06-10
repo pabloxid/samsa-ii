@@ -1,3 +1,52 @@
+9-6-11
+
+- conseguir video dorkbot
+- me gustó esa idea de mover el centro de masa segun las patas que estén apoyadas
+
+
+4-6-11
+
+intentar implementar esto antes del domingo:
+
+- control con bola de los dioses
+- control de cuerdita full con caminata
+- integración en el robot de la detección basada en el poll_load
+- algún movimiento de cabeza integrado
+- guionar el dorkbot
+- comprar pilas AAA para el control IR
+
+3-6-11
+
+IMPROVEMENTS:
+
+- implementación bluetooth sumamente completa, con comandos AT y protocolo
+- programa de simulación en processing, con esbozo de algoritmos para detectar empujes
+- ATtiny, que genera una interrupción cuando se mueve el sensor de cuerdita 
+- poll_analog() que lee y almacena los sensores analógicos
+- el analogRead() se reemplazó por ADCInitConv y ADCReadConv
+- zona de pruebas contiene algunos conceptos que se pueden reciclar
+- osciloscopio triple en processing, para probar sensor inteligente de distancia
+
+30-5-11
+
+Ideas derivadas del poll_load:
+1) detección de empujes en las 4 direcciones
+2) empujes hacia abajo global, y en cada pata
+3) estiramiento hacia afuera de cada pata
+4) que el robot corrija automáticamente la distribución del peso
+
+otra idea inminente: que el sensor de cuerdita active una interrupción hardware externa.
+
+otra idea similar: que la cabeza simplemente active una interrupción en el 1280 cuando termina de trasmitir un mensaje, asi no hay que andar polleando ---> descartado; no es necesario, el propio serial genera una interrupción
+
+otra idea: lenguaje de conexion entre sensores-conductas en processing
+
+
+25-5-11
+
+problema de colgatta de la cabeza, al resetear
+arreglar para siempre el conflicto de la ax12 con la HardwareSerial
+(si es posible, simplificar la HardwareSerial a efectos de ahorrar algun recurso)
 
 10-4-11
 
@@ -39,7 +88,7 @@ IMPROVEMENTS realizados:
 - extender la display con más cosas dinámicas
   - triángulos
   - animación con líneas encadenadas (nibbles, de longitud variable y multicolores)
-  - color scroll, plasma, línea que se mueve, objeto que se mueve, caracter que se mueve
+  - color scroll, plasma, línea que se mueve, objeto que se mueve, caracter que se mueve, metaballs
   - scroll, rotaciones, etc. en versión animada
   - cambio de modo de color y de color mismo, automáticos
   - la medidor, en versión animada (usar punteros a las variables de la caminata, o viceversa)
@@ -56,7 +105,9 @@ IMPROVEMENTS realizados:
 		- tiempo de encendido
 		- uso del CPU  
                 - consumo motores      
-        // modo para mover la cabeza
+        // prender o apagar el monitoreo de las diversas cosas
+	// prender o apagar la trasmisión BT de las diversas cosas
+	// modo para mover la cabeza
 	// uno de los botones de arriba, que vuelva realmente al origen (al punto de partida)
 	// implementar un timeout para que vuelva lentamente a la posición 
            (o para que pase al modo autónomo)
@@ -80,7 +131,8 @@ IMPROVEMENTS realizados:
 - que escriba, con un lápiz en la cabeza
 - control remoto con acelerómetro y con sensores hechos a motor de HD
 - módulo de audio con ANN igual que SAMSA I (en arduino mini)
-- módulo para generar audio, con chip vs (y probar de capturar audio también)
+- módulo para generar audio, con chip VL (y probar de capturar audio también)
+- puede reproducir MIDI con el chi VL y bailar sincronizado, que es muy fácil
 - baile: robotito + fractal rhythm + linear rhythm
 - baile sincronizado con robotito (fácil, usando el receptor IR. Hay que sincronizarse al beat)
 - sensores en las patas. 
