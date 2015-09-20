@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.1</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8.CPP</ToolchainName>
+    <ProjectGuid>{695e5893-b2f8-4754-8d19-a882844c3523}</ProjectGuid>
+    <avrdevice>ATmega1280</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>CPP</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>GccApplication1</AssemblyName>
+    <Name>SAMSA II v9</Name>
+    <RootNamespace>GccApplication1</RootNamespace>
+    <ToolchainFlavour>Arduino</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <OverrideVtorValue />
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfVersion>3.4.1</AsfVersion>
+    <avrtool>com.atmel.avrdbg.tool.simulator</avrtool>
+    <avrtoolinterface />
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolType xmlns="">com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolName xmlns="">AVR Simulator</ToolName>
+      <ToolNumber xmlns="">
+      </ToolNumber>
+      <KeepTimersRunning xmlns="">true</KeepTimersRunning>
+      <OverrideVtor xmlns="">false</OverrideVtor>
+      <OverrideVtorValue xmlns="">
+      </OverrideVtorValue>
+      <Channel xmlns="">
+        <host>127.0.0.1</host>
+        <port>2366</port>
+        <ssl>False</ssl>
+      </Channel>
+    </com_atmel_avrdbg_tool_simulator>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress />
+    <UncachedRange />
+    <BootSegment>2</BootSegment>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.4.1" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGccCpp xmlns="">
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>F_CPU=16000000L</Value>
+    </ListValues>
+  </avrgcc.compiler.symbols.DefSymbols>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../src/arduino</Value>
+      <Value>../src</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.OtherFlags>-fdata-sections</avrgcc.compiler.optimization.OtherFlags>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcc.compiler.miscellaneous.OtherFlags>-fno-exceptions -gdwarf-2 -std=gnu99</avrgcc.compiler.miscellaneous.OtherFlags>
+  <avrgcccpp.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>F_CPU=16000000L</Value>
+    </ListValues>
+  </avrgcccpp.compiler.symbols.DefSymbols>
+  <avrgcccpp.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../src</Value>
+      <Value>../src/arduino</Value>
+    </ListValues>
+  </avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.optimization.level>Optimize for size (-Os)</avrgcccpp.compiler.optimization.level>
+  <avrgcccpp.compiler.optimization.OtherFlags>-fdata-sections</avrgcccpp.compiler.optimization.OtherFlags>
+  <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
+  <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
+  <avrgcccpp.compiler.miscellaneous.OtherFlags>-fno-exceptions -gdwarf-2</avrgcccpp.compiler.miscellaneous.OtherFlags>
+  <avrgcccpp.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libc.a</Value>
+      <Value>libm</Value>
+    </ListValues>
+  </avrgcccpp.linker.libraries.Libraries>
+  <avrgcccpp.linker.memorysettings.Comment>&lt;segmentname&gt;=&lt;address&gt;, for example  .boot=0xff</avrgcccpp.linker.memorysettings.Comment>
+</AvrGccCpp>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGccCpp xmlns="">
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>F_CPU=16000000L</Value>
+    </ListValues>
+  </avrgcc.compiler.symbols.DefSymbols>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../src/_arduino</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcccpp.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>F_CPU=16000000L</Value>
+    </ListValues>
+  </avrgcccpp.compiler.symbols.DefSymbols>
+  <avrgcccpp.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../src</Value>
+      <Value>../src/_arduino</Value>
+      <Value>../src/cinematica</Value>
+      <Value>../src/comm_peripherals</Value>
+      <Value>../src/conducta</Value>
+      <Value>../src/hardware_util</Value>
+    </ListValues>
+  </avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.optimization.level>Optimize for size (-Os)</avrgcccpp.compiler.optimization.level>
+  <avrgcccpp.compiler.optimization.OtherFlags>-fdata-sections</avrgcccpp.compiler.optimization.OtherFlags>
+  <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
+  <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcccpp.compiler.optimization.DebugLevel>Default (-g2)</avrgcccpp.compiler.optimization.DebugLevel>
+  <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
+  <avrgcccpp.compiler.miscellaneous.OtherFlags>-fno-exceptions -gdwarf-2</avrgcccpp.compiler.miscellaneous.OtherFlags>
+  <avrgcccpp.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libm</Value>
+    </ListValues>
+  </avrgcccpp.linker.libraries.Libraries>
+  <avrgcccpp.linker.memorysettings.Comment>&lt;segmentname&gt;=&lt;address&gt;, for example  .boot=0xff</avrgcccpp.linker.memorysettings.Comment>
+  <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
+</AvrGccCpp>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src" />
+    <Folder Include="src\hardware_util" />
+    <Folder Include="src\comm_peripherals" />
+    <Folder Include="src\cinematica" />
+    <Folder Include="src\conducta" />
+    <Folder Include="src\_arduino" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\cinematica\ax12.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\ax12.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\events.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\events.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\movimiento.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\movimiento.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\movimiento2.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\mov_bajo_nivel.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\mov_bajo_nivel.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\vectores.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\cinematica\vectores.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\bluetooth.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\bluetooth.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\cabeza.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\cabeza.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\display.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\display.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\remote_control.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\remote_control.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\serialcomm.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\comm_peripherals\serialcomm.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\conducta\conducta.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\conducta\conducta.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\conducta\conducta2.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\ann.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\ann.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\dsp.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\hardware.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\hardware.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\util.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware_util\util.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\main.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\settings.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\binary.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\HardwareSerial.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\HardwareSerial.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\pins_arduino.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\pins_arduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\Print.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\Print.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\WCharacter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\WInterrupts.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\wiring.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\wiring_analog.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\wiring_digital.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\wiring_pulse.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\wiring_shift.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\WString.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_arduino\WString.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\_comentarios.txt">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

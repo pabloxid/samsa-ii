@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<!--This file is meant to be opened with AVR Project IDE, http://code.google.com/p/avr-project-ide/ -->
+<Project>
+  <DirPath>H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5</DirPath>
+  <HasBeenConfigged>true</HasBeenConfigged>
+  <Device>atmega1280</Device>
+  <ClockFreq>16000000,00</ClockFreq>
+  <LinkerOpt />
+  <OtherOpt>-Wall -gdwarf-2</OtherOpt>
+  <OtherOptionsForC>-std=gnu99</OtherOptionsForC>
+  <OtherOptionsForCPP>-std=c99</OtherOptionsForCPP>
+  <OtherOptionsForS />
+  <OutputDir>output</OutputDir>
+  <Optimization>-Os</Optimization>
+  <UseInitStack>false</UseInitStack>
+  <InitStackAddr>0xFFFF</InitStackAddr>
+  <PackStructs>true</PackStructs>
+  <ShortEnums>true</ShortEnums>
+  <UnsignedBitfields>false</UnsignedBitfields>
+  <UnsignedChars>false</UnsignedChars>
+  <FunctionSections>true</FunctionSections>
+  <DataSections>true</DataSections>
+  <IncludeDirList />
+  <LibraryDirList />
+  <LinkObjList />
+  <LinkLibList>
+    <Lib>libm.a</Lib>
+    <Lib>libc.a</Lib>
+  </LinkLibList>
+  <MemorySegList />
+  <BurnPart>atmega1280</BurnPart>
+  <BurnProgrammer>stk500v1</BurnProgrammer>
+  <BurnOptions>-F -V</BurnOptions>
+  <BurnPort>COM14</BurnPort>
+  <BurnFuseBox>-U lfuse:w:0xff:m -U hfuse:w:0xda:m -U efuse:w:0xf5:m</BurnFuseBox>
+  <BurnBaud>57600</BurnBaud>
+  <BurnAutoReset>true</BurnAutoReset>
+  <LastFile>main.cpp</LastFile>
+  <FileList>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\cabeza.h'-->
+      <RelPath>src\cabeza.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>3778</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\serialcomm.cpp'-->
+      <RelPath>src\serialcomm.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>1951</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\wiring_digital.c'-->
+      <RelPath>src\wiring_digital.c</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\serialcomm.h'-->
+      <RelPath>src\serialcomm.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>2573</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\movimiento.cpp'-->
+      <RelPath>src\movimiento.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>4149</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\cabeza.cpp'-->
+      <RelPath>src\cabeza.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>1657</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\util.cpp'-->
+      <RelPath>src\util.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>1921</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\Print.cpp'-->
+      <RelPath>src\Print.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\bluetooth.cpp'-->
+      <RelPath>src\bluetooth.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>851</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\ax12.h'-->
+      <RelPath>src\ax12.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\display.h'-->
+      <RelPath>src\display.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\movimiento.h'-->
+      <RelPath>src\movimiento.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>3108</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\bluetooth.h'-->
+      <RelPath>src\bluetooth.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\mov_bajo_nivel.cpp'-->
+      <RelPath>src\mov_bajo_nivel.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>13772</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\pins_arduino.c'-->
+      <RelPath>src\pins_arduino.c</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\events.h'-->
+      <RelPath>src\events.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>1072</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\util.h'-->
+      <RelPath>src\util.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>4054</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\movimiento2.cpp'-->
+      <RelPath>src\movimiento2.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>6486</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\wiring_analog.c'-->
+      <RelPath>src\wiring_analog.c</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\HardwareSerial.h'-->
+      <RelPath>src\HardwareSerial.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>2018</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\conducta.h'-->
+      <RelPath>src\conducta.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>1646</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\ax12.cpp'-->
+      <RelPath>src\ax12.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\wiring_shift.c'-->
+      <RelPath>src\wiring_shift.c</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\Print.h'-->
+      <RelPath>src\Print.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\hardware.cpp'-->
+      <RelPath>src\hardware.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>8012</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\dsp.cpp'-->
+      <RelPath>src\dsp.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\vectores.h'-->
+      <RelPath>src\vectores.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>2446</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\binary.h'-->
+      <RelPath>src\binary.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\WString.cpp'-->
+      <RelPath>src\WString.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\display.cpp'-->
+      <RelPath>src\display.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\remote_control.cpp'-->
+      <RelPath>src\remote_control.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>7091</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\dsp.h'-->
+      <RelPath>src\dsp.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\events.cpp'-->
+      <RelPath>src\events.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>3893</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\mov_bajo_nivel.h'-->
+      <RelPath>src\mov_bajo_nivel.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\vectores.cpp'-->
+      <RelPath>src\vectores.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>5245</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\Tone.cpp'-->
+      <RelPath>src\Tone.cpp</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\HardwareSerial.cpp'-->
+      <RelPath>src\HardwareSerial.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>2874</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\wiring.h'-->
+      <RelPath>src\wiring.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>2289</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\main.cpp'-->
+      <RelPath>src\main.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>960</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\hardware.h'-->
+      <RelPath>src\hardware.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\pins_arduino.h'-->
+      <RelPath>src\pins_arduino.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\_comentarios.cpp'-->
+      <RelPath>src\_comentarios.cpp</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>862</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\WString.h'-->
+      <RelPath>src\WString.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\wiring_pulse.c'-->
+      <RelPath>src\wiring_pulse.c</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\WInterrupts.c'-->
+      <RelPath>src\WInterrupts.c</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\WCharacter.h'-->
+      <RelPath>src\WCharacter.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\conducta.cpp'-->
+      <RelPath>src\conducta.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>2715</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\remote_control.h'-->
+      <RelPath>src\remote_control.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>3361</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\ann.h'-->
+      <RelPath>src\ann.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\ann.cpp'-->
+      <RelPath>src\ann.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>811</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'H:\Personal\Trabajos\Programacion\SAMSA II\v8.2.5\src\conducta2.cpp'-->
+      <RelPath>src\conducta2.cpp</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>3759</CursorPos>
+      <Bookmarks />
+    </File>
+  </FileList>
+  <ArduinoCoreOverride />
+  <AVRStudioXMLStuff />
+</Project>
